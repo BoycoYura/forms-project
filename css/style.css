@@ -284,3 +284,55 @@
 .f-select{
     height: auto!important;
 }
+
+@media (max-width: 991px){
+    .invoice-table .small-big-text .big {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 768px){
+    td img{
+        width: 70%;
+    }
+
+    .invoice-table thead td {
+        font-size: 12px;
+    }
+
+    .invoice-table tr td {
+        font-size: 12px;
+    }
+
+    .invoice-table .small-big-text .big {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .invoice-table .small-big-text .small {
+        font-size: 12px;
+    }
+}
+
+
+
+@media (max-width: 580px){
+    .i-title{
+        text-align: center;
+        padding-left: 0;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .i-text{
+        text-align: center;
+    }
+
+    .invoice-table .small-big-text .big {
+        font-size: 12px;
+        line-height: 25px;
+    }
+}
+
+
+
