@@ -4,6 +4,382 @@
     margin-top: 20px;
 }
 
+.form-foot-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #F9F9F9;
+    border-top: 2px solid #EBEBEB;
+    border-radius: 0px 20px 20px;
+}
+
+.bg-seven .head_p {
+    padding: 10px 0 10px;
+}
+
+.bg-seven .card_img {
+    padding: 40px 50px 25px;
+}
+
+.form-seven .form-foot-flex .submit {
+    font-size: 20px;
+    color: #fff;
+    background-color: #54c7c3;
+    padding: 30px 0;
+    width: 50%;
+    margin-top: 0;
+    border: none;
+    font-weight: 600;
+    margin-top: -2px;
+    border-radius: 0 0 10px;
+}
+
+.bg-seven {
+    padding: 10% 25% 10% 25%;
+}
+
+.form-seven .form-foot-flex p{
+    width: 50%;
+    text-align: left;
+    font-size: 30px;
+    color: #4E4E4E;
+    font-weight: bold;
+    padding-left: 50px;
+}
+
+
+
+.form-seven .card_img .head_p,
+.form-six .card_img .head_p{
+    font-size: 16px;
+    color: #C9C9C9;
+    font-weight: 600;
+}
+
+.form-seven .card_img input {
+    border-radius: 0;
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+.form-seven .card_img .data,
+.form-six .card_img .data {
+     border-right: 2px solid #cccccc;
+}
+
+.bg-six {
+    padding: 10% 20% 10% 20%;
+}
+
+.form-six .form-block .data{
+    border-radius: 5px!important;
+    border-width: 1px;
+    height: 50px;
+    padding-left: 10px;
+}
+
+.form-foot-flex .head_p{
+    color: #705f5f;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.six-submit{
+    border: none;
+    background: #59CCA8;
+    color: white;
+    padding: 15px 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-top: 20px;
+    height: 50px;
+    box-shadow: 1px 2px 14px -2px #8d6c6c;
+}
+
+.six-submit span{
+   padding-right: 120px; 
+}
+
+.bg-five {
+    padding: 10% 0% 10% 0%;
+}
+
+.form-five .header-part .header{
+    font-size: 20px;
+    width: 50%;
+    margin: 0 auto;
+    font-weight: bold;
+    color: #605858;
+}
+
+.form-five .header-part{
+    padding-top: 30px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ddd4d4;
+}
+
+.form-five .card_img .head_p {
+    font-size: 16px;
+    color: #3f3f3f;
+    font-weight: 400;
+}
+
+
+
+.form-six .card_img .head_p {
+    color: #705f5f;
+    padding: 20px 0 10px;
+}
+
+.form-six .form-block{
+    width: 48%;
+    margin-bottom: 10px;
+}
+
+.form-input_row .sev-part{
+    width: 68%;
+}
+
+.form-input_row .third-part{
+    width: 28%;
+}
+
+.form-six .form-foot-flex{
+    background: transparent;
+    border-top: 0;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+
+.form-five .card_img {
+    padding: 0;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.form-five .form-input_row .form-group .form-control{
+    height: 50px;
+}
+
+.form-five .add-info{
+    padding-top: 20px;
+    padding-bottom: 40px; 
+    text-align: center;
+}
+
+.form-five .form-foot-flex{
+    background: transparent;
+    border-top: 1px solid #EBEBEB;
+}
+
+.five-submit{
+    padding: 10px 50px 10px 10px;
+    border: none;
+    background: transparent;
+}
+
+
+.five-submit span{
+   padding-right: 40px; 
+}
+
+.form-foot-flex .five-submit:nth-child(1){
+    border: 1px solid #e1dada;
+    font-weight: 600;
+    border-radius: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.form-foot-flex .five-submit:nth-child(2){
+    border: 1px solid #3F87F5;
+    background: #3F87F5;
+    color: white;
+    font-weight: 600;
+    padding-right: 15px;
+    padding-left: 50px;
+    border-radius: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    cursor: pointer;
+}
+
+.form-foot-flex .five-submit:nth-child(2) span{
+    padding-right: 0px;
+    padding-left: 40px;
+}
+
+
+
+.form-input_row{
+    justify-content: space-between;
+    display: flex;
+}
+
+.form-five .card_img .data {
+    border: 1px solid #cccccc;
+    border-radius: 0;
+}
+
+.form-five .card_img .head_p {
+    padding: 20px 0 10px;
+}
+
+.form-five .form-foot-flex{
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.nav-pills{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;    
+}
+
+
+.nav-pills .nav-item{
+    width: 50%;
+}
+
+.form-third .form-foot-flex{
+    justify-content: center;
+    background: transparent;
+    border-top: 0;
+    padding-bottom: 30px;
+}
+
+.form-third .form-foot-flex .submit{
+   width: 100%; 
+}
+
+.bg-third {
+    padding: 10% 30% 10% 30%;
+}
+
+.bg-four .card_img{
+    display: flex;
+}
+
+.card-left-part{
+    width: 40%;
+    background: #CBD5D7;
+    padding-left: 30px;
+}
+
+.card-right-part{
+    width: 60%;
+    background: #1F3449;
+}
+
+.form-four .card_img{
+    padding: 0;
+}
+
+.card-left-part .text{
+    text-align: right;
+    padding-right: 30px;
+    padding-top: 30px;
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 80px;
+}
+
+.form-four .card-left-part .title{
+    font-size: 12px;
+    font-weight: bold;
+    color: #1f3449;
+    padding-bottom: 20px;
+}
+
+.form-four .card-left-part .value{
+    color: #1f3449;
+    font-size: 34px;
+    padding-bottom: 50px;
+}
+
+.form-four .card-left-part .value span{
+    font-size: 20px;  
+}
+
+.form-four .card-left-part .value.name{
+    font-size: 20px;
+}
+
+.card-right-part{
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: left;
+}
+
+.card-right-part .text{
+    padding-top: 30px;
+}
+
+.exp-line{
+    display: flex;
+    padding-top: 25px;
+}
+
+.bg-four{
+    padding: 10% 25% 10% 25%;
+}
+
+.exp-line span{
+    font-size: 24px;
+    padding-top: 15px;
+    padding-right: 40px;
+}
+
+.exp-line .exp-select select{
+    height: 50px!important; 
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    color: white;
+}
+
+
+.card-right-part label{
+    padding-bottom: 10px;
+}
+
+.form-four .card_img input{
+     background: transparent;
+    color: white;   
+}
+
+
+
+    
+
+    
+
+
+
+
+
+
+
+
+.label-row{
+    justify-content: space-between;
+    display: flex;  
+}
+
+.form-seven .form-block{
+    width: 47%;
+}
+
+.form-six .header{
+    color: #59CCA8;
+}
+
+
 .btn-print{
     text-align: center;
     margin-top: 20px;
@@ -333,6 +709,123 @@
         line-height: 25px;
     }
 }
+
+
+
+.form-four .form-block {
+    width: 15%;
+    margin-right: 10px;
+}
+
+.form-four .form-input_row{
+     justify-content: flex-start;
+}
+
+.form-two .card_img {
+    padding: 0;
+    display: flex;
+}
+
+.form-two .card-left-part {
+    width: 40%;
+    background: white;
+
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+}
+
+.form-two .card-right-part {
+    width: 60%;
+    background: #004F9A;
+}
+
+.bg-two {
+    padding: 10% 25% 10% 25%;
+}
+
+.form-two .card-left-part .title {
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+    padding-bottom: 10px;
+}
+
+.form-two .card-left-part .value {
+    font-size: 12px;
+    font-weight: bold;
+    color: #004F9A;
+    padding-bottom: 10px;
+}
+
+.ecgo-form .header-part{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.ecgo-form{
+    padding: 10% 0% 10% 0%;
+}
+
+.form-ecgo .header{
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.top-label{
+    text-transform: uppercase;
+    border-bottom: 1px solid grey;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.top-headers{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+
+.form-one .header{
+    text-align: left;
+}
+
+.form-one table{
+    width: 100%;
+}
+
+.form-one .flex-card{
+    display: flex;
+    margin-top: 50px;
+}
+
+.form-one .flex-card-right{
+    width: 50%;
+}
+
+.form-one .flex-card-left{
+    width: 50%;
+    position: relative;
+    top: 100px;
+}
+
+.form-one .card-body{
+    box-shadow: 2px 2px 15px 1px grey;
+    flex-direction: column;
+    padding: 0;
+}
+
+.form-one .expiry-row{
+    display: flex;
+    background: #F2F5FA;
+}
+
+.form-one .card-img{
+    background: #FBFBFB;
+}
+
 
 
 
