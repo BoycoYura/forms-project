@@ -24,6 +24,15 @@ body{
     border-radius: 10px;
 }
 
+.fa-check-circle svg{
+    color: #ffc107;
+}
+.fa-check svg{
+    width: 50px!important;
+    margin-left: 52px;
+    position: relative;
+    color: #ffc107;
+}
 form h2 {
     text-align: center;
     text-transform: uppercase;

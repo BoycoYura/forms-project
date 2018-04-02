@@ -48,7 +48,6 @@
 }
 
 
-
 .form-seven .card_img .head_p,
 .form-six .card_img .head_p{
     font-size: 16px;
@@ -58,13 +57,33 @@
 
 .form-seven .card_img input {
     border-radius: 0;
-    height: 60px;
+
     margin-bottom: 20px;
 }
 
+.fa-check:before {
+display: none!important;
+
+}
+
+.fa-check{
+    position: relative;
+    left: 70px;
+}
+
+.arrow-top-img{
+    position: relative;
+    right:50px;
+}
+
+
 .form-seven .card_img .data,
 .form-six .card_img .data {
-     border-right: 2px solid #cccccc;
+     border-right: 1px solid #cccccc;
+}
+
+input .data {
+    border: 1px solid #cccccc!important;
 }
 
 .bg-six {
@@ -285,8 +304,8 @@
     padding-top: 30px;
     font-size: 24px;
     font-weight: bold;
-    padding-bottom: 80px;
 }
+
 
 .form-four .card-left-part .title{
     font-size: 12px;
@@ -329,10 +348,19 @@
     padding: 10% 25% 10% 25%;
 }
 
+option{
+   background-color: #1F3449;;
+}
+
 .exp-line span{
-    font-size: 24px;
+    font-size: 20px;
     padding-top: 15px;
     padding-right: 40px;
+}
+
+.form-four .number {
+    border:1px solid #ffc107!important;
+
 }
 
 .exp-line .exp-select select{
@@ -343,27 +371,33 @@
     color: white;
 }
 
+.data input{
+    border: 1px solid RGBA(89,89,89,0.46)!important;
+}
 
+.card_img input{
+    border: 1px solid  RGBA(89,89,89,0.66)!important;;
+}
 .card-right-part label{
     padding-bottom: 10px;
 }
 
 .form-four .card_img input{
      background: transparent;
-    color: white;   
+    color: white;
+    background: #1F3449;
+
 }
+::-webkit-input-placeholder {color:white;}
+::-moz-placeholder          {color:white;}/* Firefox 19+ */
+:-moz-placeholder           {color:white;}/* Firefox 18- */
+:-ms-input-placeholder      {color:white;}
 
 
+.arrow-top{
+    padding-bottom: 80px;
 
-    
-
-    
-
-
-
-
-
-
+}
 
 
 .label-row{
@@ -661,9 +695,20 @@
     height: auto!important;
 }
 
+
+@media(max-width:1200px){
+
+.bg {
+    padding: 10% 32% 10% 7%;
+}
+}
 @media (max-width: 991px){
     .invoice-table .small-big-text .big {
         font-size: 18px;
+    }
+
+    .bg {
+        padding: 10% 13% 10% 7%!important;
     }
 }
 
@@ -707,6 +752,66 @@
     .invoice-table .small-big-text .big {
         font-size: 12px;
         line-height: 25px;
+    }
+
+    .bg {
+        padding: 10% 0% 14% 1%!important;
+    }
+
+    .fa-check svg{
+        margin-left: 37px;
+    }
+}
+
+@media (max-width: 480px){
+    .bg-four .card_img{
+        flex-direction: column;
+    }
+
+    .card-left-part {
+        width: 100%;
+        background: #CBD5D7;
+        padding-left: 30px;}
+
+    .card-right-part {
+        width: 100%;
+        background: #1F3449;}
+
+    .card-left-part .text{
+        text-align: center;
+    }
+
+    .card_img p{
+        text-align: center;
+    }
+    .arrow-top-img {
+        position: relative;
+        right: 100px;
+    }
+
+    .arrow-top {
+        padding-bottom: 20px;
+    }
+
+    .exp-line span{
+        font-size: 19px;
+    }
+    .exp-line .exp-select select{
+        font-size: 19px;
+    }
+}
+
+
+@media (max-width: 400px){
+    .fa-check {
+        position: relative;
+        left: 30px;
+    }
+}
+@media (max-width: 365px){
+    .arrow-top-img {
+        position: relative;
+        right: 70px;
     }
 }
 
@@ -825,6 +930,9 @@
 .form-one .card-img{
     background: #FBFBFB;
 }
+
+
+
 
 
 
