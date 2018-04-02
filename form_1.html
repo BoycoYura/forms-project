@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/forms_0.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/forms_1.css">
     
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
 </head>
@@ -25,60 +26,80 @@
 			
 			<table>
 				<thead>
-					<tr>
-						<td>items</td>
-						<td>Quanity</td>
-						<td>$69</td>
+					<tr class="head_tr">
+						<td class="head first">Items</td>
+						<td class="head two">Quanity</td>
+						<td class="head two">Price</td>
+						<td class="last"></td>
 					</tr>
 
 					<tr>
-						<td><img src="images/Logo.PNG" alt=""> <span>Air Zoom Pegaus 92</span></td>
-						<td>1</td>
-						<td>Price</td>
+						<td class="first"><img src="images/Logo.PNG" alt=""> <span>Air Zoom Pegaus 92</span></td>
+						<td class="two">
+							<div class="minus">-</div>
+							<div class="bg">1</div>
+							<div class="plus">+</div>
+						</td>
+						<td class="three">$<span class="big">69</span></td>
+						<td class="last"><span class="x">&times;</span></td>
 					</tr>
 
 					<tr>
-						<td><img src="images/Logo.PNG" alt=""> <span>Air Max 90 Ultra SE</span></td>
-						<td>1</td>
-						<td>$85</td>
+						<td class="first"><img src="images/Logo.PNG" alt=""> <span>Air Max 90 Ultra SE</span></td>
+						<td class="two">
+							<div class="minus">-</div>
+							<div class="bg">1</div>
+							<div class="plus">+</div>
+						</td>
+						<td class="three">$<span class="big">85</span></td>
+						<td class="last"><span class="x">&times;</span></td>
 					</tr>
 				</thead>
 			</table>
 
 			<div class="flex-card">
-				<div class="flex-card-left">
-					<div class="form-input_row card-body">
-						<div class="form-block col-lg-12">
-							<p class="head_p">Credit Card Number</p>
-							<input class="data" type="text" name="number" placeholder="1234  5678 1234 5678">
+				<div class="row">
+					<div class="col-md-7 col-sm-12 flex-card-left">
+						<div class="form-input_row card-body">
+							<div class="form_block_img col-lg-12">
+								<img src="images/MasterCard.png">
+							</div>
+							<div class="form-block col-lg-12">
+								<p class="head_p">Card Number</p>
+								<input class="data" type="text" name="number" placeholder="5106  2140 0050 4620">
+							</div>
+
+							<div class="expiry-row">
+								<div class="row">
+									<div class="form-block col-lg-6 col-md-12 col-sm-12">
+										<p class="head_p">Card Holder</p>
+										<input class="data" type="text" name="number" placeholder="SHCHERBINA K">
+									</div>
+
+									<div class="form-block thi col-lg-4 col-md-8 col-sm-12">
+										<p class="head_p">Valid thru</p>
+										<input class="data" type="text" name="number" placeholder="07/2019">
+									</div>
+
+									<div class="form-block thi col-lg-2 col-md-4 col-sm-12">
+										<p class="head_p">CVV</p>
+										<input class="data" type="text" name="number" placeholder=". . .">
+									</div>
+								</div>
+								
+							</div>
+
+
+
 						</div>
+					</div>
+					<div class="col-md-5 col-sm-12 flex-card-right">
+						<h4>Total: <span>$<span class="total_prise">154</span></span></h4>
 
-						<div class="expiry-row">
-							<div class="form-block col-lg-4">
-								<p class="head_p">Card Holder</p>
-								<input class="data" type="text" name="number" placeholder="1234  5678 1234 5678">
-							</div>
-
-							<div class="form-block thi col-lg-4">
-								<p class="head_p">Valid thru</p>
-								<input class="data" type="text" name="number" placeholder="1234  5678 1234 5678">
-							</div>
-
-							<div class="form-block thi col-lg-4">
-								<p class="head_p">CVV</p>
-								<input class="data" type="text" name="number" placeholder="1234  5678 1234 5678">
-							</div>
-						</div>
-
-
-
+						<input type="submit" value="Pay">
 					</div>
 				</div>
-				<div class="flex-card-right">
-					<h4>Total: <span>$154</span></h4>
-
-					<input type="submit" value="Pay">
-				</div>
+				
 			</div>
         </div>
       </div>
