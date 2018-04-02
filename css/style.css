@@ -371,12 +371,12 @@ option{
     color: white;
 }
 
-.data input{
-    border: 1px solid RGBA(89,89,89,0.46)!important;
+.form-four .data input{
+    border: 1px solid RGBA(89,89,89,0.46);
 }
 
-.card_img input{
-    border: 1px solid  RGBA(89,89,89,0.66)!important;;
+.form-four .card_img input{
+    border: 1px solid  RGBA(89,89,89,0.66)!important;
 }
 .card-right-part label{
     padding-bottom: 10px;
@@ -406,7 +406,11 @@ option{
 }
 
 .form-seven .form-block{
-    width: 47%;
+
+}
+
+.form-block{
+    width: 20%;
 }
 
 .form-six .header{
@@ -706,6 +710,19 @@ option{
     .invoice-table .small-big-text .big {
         font-size: 18px;
     }
+    .mastercardlogo {
+        left: 100px!important;
+    }
+    .form-two #special-input{
+        background-position: 260px!important;
+    }
+    .form-two #special-input-2{
+        background-position: 260px!important;
+    }
+
+    .form-two #spcial-input-3{
+        background-position: 120px;
+    }
 
     .bg {
         padding: 10% 13% 10% 7%!important;
@@ -716,6 +733,27 @@ option{
     td img{
         width: 70%;
     }
+
+    .bg-two {
+        padding: 7% 0% 3% 0%!important;
+    }
+
+    .mastercardlogo {
+        left: 185px!important;
+    }
+    .form-two #special-input{
+        background-position: 230px!important;
+    }
+    .form-two #special-input-2{
+        background-position: 230px!important;
+    }
+
+    .form-two #special-input-3{
+        background-position: 105px!important;
+        padding-left: 5px!important;
+    }
+
+
 
     .invoice-table thead td {
         font-size: 12px;
@@ -768,6 +806,58 @@ option{
         flex-direction: column;
     }
 
+    .form-two .card_img{
+
+        flex-direction: column;
+
+    }
+
+    .form-two .card-right-part {
+        width: 100%!important;
+        border-top-right-radius: 12px;
+        border-bottom-right-radius: 12px;
+        background: #004F9A;
+    }
+
+    .form-two .card-left-part {
+        width: 100%!important;
+        background: white;
+        align-items: center!important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .form-two #special-input-3 {
+        background-position: 150px !important;
+        padding-left: 20px !important;
+
+    }
+    .mastercardlogo {
+        left: 190px!important;
+    }
+
+    .btn-secondary-margin {
+        padding-top: 10px!important;
+        left: 20px;
+    }
+
+    .special-title {
+        margin-top: 50px!important;
+    }
+
+    .btn-secondary-margin{
+        margin-bottom: 10px!important;
+    }
+
+    .form-two #special-input {
+        background-position: 340px!important;
+    }
+    .form-two #special-input-2 {
+        background-position: 340px!important;
+    }
+
     .card-left-part {
         width: 100%;
         background: #CBD5D7;
@@ -802,12 +892,34 @@ option{
 }
 
 
+@media(max-width: 440px){
+    .mastercardlogo {
+        left: 150px!important;
+    }
+}
+
 @media (max-width: 400px){
     .fa-check {
         position: relative;
         left: 30px;
     }
+    .form-two #special-input-2 {
+        background-position: 245px!important;
+    }
+    .form-two #special-input-3 {
+        background-position: 245px!important;
+    }
+
+    .form-two #special-input-1 {
+        background-position: 115px!important;
+    }
+
+    .mastercardlogo {
+        left: 100px!important;
+    }
 }
+
+
 @media (max-width: 365px){
     .arrow-top-img {
         position: relative;
@@ -815,6 +927,11 @@ option{
     }
 }
 
+@media (max-width: 320px){
+    .mastercardlogo {
+        left: 50px!important;
+    }
+}
 
 
 .form-four .form-block {
@@ -832,23 +949,49 @@ option{
 }
 
 .form-two .card-left-part {
-    width: 40%;
+    width: 35%;
     background: white;
 
-    align-items: center;
+    align-items: left;
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 0;
+
 }
 
+#special-input{
+    margin-top: 35px;
+}
+.form-two .card-left-part p{
+    left:30px;
+    position: relative;
+
+}
+
+.title{
+    margin-top: 20px;
+}
+
+.form-width-1{
+    width: 50%;
+}
+
+.form-width-2{
+    width: 35%;
+}
+.special-title{
+    margin-top: 105px;
+}
 .form-two .card-right-part {
-    width: 60%;
+    width: 65%;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
     background: #004F9A;
 }
 
 .bg-two {
-    padding: 10% 25% 10% 25%;
+    padding: 7% 10% 10% 22%;
 }
 
 .form-two .card-left-part .title {
@@ -862,7 +1005,20 @@ option{
     font-size: 12px;
     font-weight: bold;
     color: #004F9A;
+
     padding-bottom: 10px;
+}
+
+
+.form-two .card-left-part{
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+.mastercardlogo{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 145px;
 }
 
 .ecgo-form .header-part{
@@ -931,9 +1087,89 @@ option{
     background: #FBFBFB;
 }
 
+.btn-secondary-special{
+    background-color: #004F9A!important;
+    border-color: #004F9A!important;
+    height: 50px;
+    color:#839494;
+
+}
+
+.btn-secondary-close{
+    background-color: white;
+    color:#004F9A;
+    font-weight: 600;
+    border:none;
+}
+.btn-secondary-margin{
+    padding-top: 75px;
+    left:20px;
+}
+.number-2{
+    background-color: #004F9A;
+}
+.number-2 input{
+    border: 2px solid white!important;
+
+}
 
 
 
+/* FORM NUMBER 2 */
+.form-two  #special-input{
+    background-image: url(../images/human.PNG);
+    background-repeat: no-repeat; /*Убираем повтор изображения*/
+    background-position: 310px; /*Позиционируем*/
+    outline: none; /*убирам стандартную обводку браузера*/
+    -moz-border-radius: 5px; /*закругляем углы для Mozilla*/
+    -webkit-border-radius: 5px; /*закругляем углы для Chrome, Safari*/
+    border-radius: 5px; /*закругляем углы для остальных браузеров*/
+    padding-left: 20px; /*отступ слева от ввода, чтобы текст не был на картинке(выбирать по размеру картинки)*/
+
+}
+
+
+.form-two  #special-input-2{
+    background-image: url(../images/zamok.PNG);
+    background-repeat: no-repeat; /*Убираем повтор изображения*/
+    background-position: 310px; /*Позиционируем*/
+    outline: none; /*убирам стандартную обводку браузера*/
+    -moz-border-radius: 5px; /*закругляем углы для Mozilla*/
+    -webkit-border-radius: 5px; /*закругляем углы для Chrome, Safari*/
+    border-radius: 5px; /*закругляем углы для остальных браузеров*/
+    padding-left: 20px; /*отступ слева от ввода, чтобы текст не был на картинке(выбирать по размеру картинки)*/
+
+}
+
+.form-two  #special-input-3{
+    background-image: url(../images/expi.PNG);
+    background-repeat: no-repeat; /*Убираем повтор изображения*/
+    background-position: 130px; /*Позиционируем*/
+    outline: none; /*убирам стандартную обводку браузера*/
+    -moz-border-radius: 5px; /*закругляем углы для Mozilla*/
+    -webkit-border-radius: 5px; /*закругляем углы для Chrome, Safari*/
+    border-radius: 5px; /*закругляем углы для остальных браузеров*/
+    padding-left: 20px; /*отступ слева от ввода, чтобы текст не был на картинке(выбирать по размеру картинки)*/
+    padding-top: 10px;
+
+}
+
+
+
+.form-two input .number-2{
+
+    border:2px solid blue;
+}
+
+.form-two input .number-2 :hover{
+    border:2px solid blue;
+}
+
+.form-block input{
+    background: #004F9A;
+    color:white;
+}
+/*::-webkit-input-placeholder {color:white; background-color: #004F9A; background-size: 100% 100%;}*/
 
 
 
