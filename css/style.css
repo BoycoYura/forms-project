@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
 .form-title-inv{
     text-align: center;
     color: #1AB394;
@@ -10,24 +12,25 @@
     justify-content: space-between;
     background: #F9F9F9;
     border-top: 2px solid #EBEBEB;
-    border-radius: 0px 20px 20px;
+    border-radius: 0px 20px 20px 10px;
 }
+
+/* Seven form */
 
 .bg-seven .head_p {
     padding: 10px 0 10px;
 }
 
 .bg-seven .card_img {
-    padding: 40px 50px 25px;
+    padding: 40px 30px 25px;
 }
 
 .form-seven .form-foot-flex .submit {
     font-size: 20px;
     color: #fff;
-    background-color: #54c7c3;
+    background-color: #50e3c2;
     padding: 30px 0;
     width: 50%;
-    margin-top: 0;
     border: none;
     font-weight: 600;
     margin-top: -2px;
@@ -35,7 +38,7 @@
 }
 
 .bg-seven {
-    padding: 10% 25% 10% 25%;
+    padding: 10% 30% 10% 30%;
 }
 
 .form-seven .form-foot-flex p{
@@ -44,10 +47,8 @@
     font-size: 30px;
     color: #4E4E4E;
     font-weight: bold;
-    padding-left: 50px;
+    padding-left: 30px;
 }
-
-
 
 .form-seven .card_img .head_p,
 .form-six .card_img .head_p{
@@ -60,11 +61,38 @@
     border-radius: 0;
     height: 60px;
     margin-bottom: 20px;
+    border: 2px solid #F3F3F3;
+    color: #cecece;
+    font-weight: 600
 }
 
-.form-seven .card_img .data,
+.form-seven .input_two{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-seven input::-webkit-input-placeholder { color: #C9C9C9;}
+.form-seven input::-moz-placeholder          { color: #C9C9C9;}/* Firefox 19+ */
+.form-seven input:-moz-placeholder           { color: #C9C9C9;}/* Firefox 18- */
+.form-seven input:-ms-input-placeholder      { color: #C9C9C9;}
+
+/* Seven form */
+
+/* Six form */
+
+.form-six .header{
+    color: #59CCA8;
+    font-family: 'Pacifico', cursive;
+    font-size: 56px;
+    padding-bottom: 50px;
+}
+
+.form-six .card_img {
+    padding: 60px 50px 25px;
+}
+
 .form-six .card_img .data {
-     border-right: 2px solid #cccccc;
+     border-right: 2px solid #9e9e9e;;
 }
 
 .bg-six {
@@ -76,6 +104,10 @@
     border-width: 1px;
     height: 50px;
     padding-left: 10px;
+    width: 100%;
+    border: 1px solid #cccccc;
+    color: #705f5f;
+    font-weight: 600;
 }
 
 .form-foot-flex .head_p{
@@ -91,14 +123,59 @@
     padding: 15px 20px;
     font-weight: 600;
     border-radius: 5px;
-    margin-top: 20px;
+    margin-top: 15px;
     height: 50px;
     box-shadow: 1px 2px 14px -2px #8d6c6c;
+    cursor: pointer;
+    outline: none;
 }
 
 .six-submit span{
    padding-right: 120px; 
 }
+
+.form-six .form-input_row:nth-child(3){
+    margin-top: 30px;
+}
+
+.form-six .visa-image{
+    position: absolute;
+    width: 30px;
+    right: 12px;
+    top: 40px;
+}
+
+.form-six .visa-image.question{
+    top: 40px;
+    width: 20px
+}
+
+.form-six .form-block{
+    width: 48%;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.form-six .card_img .head_p {
+    color: #705f5f;
+    padding: 0 0 10px;
+}
+
+.form-six .form-foot-flex{
+    background: transparent;
+    border-top: 0;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+
+.form-six input::-webkit-input-placeholder { font-weight: 600;}
+.form-six input::-moz-placeholder          { font-weight: 600;}/* Firefox 19+ */
+.form-six input:-moz-placeholder           { font-weight: 600;}/* Firefox 18- */
+.form-six input:-ms-input-placeholder      { font-weight: 600;}
+
+/* Six form */
+
 
 .bg-five {
     padding: 10% 0% 10% 0%;
@@ -126,15 +203,6 @@
 
 
 
-.form-six .card_img .head_p {
-    color: #705f5f;
-    padding: 20px 0 10px;
-}
-
-.form-six .form-block{
-    width: 48%;
-    margin-bottom: 10px;
-}
 
 .form-input_row .sev-part{
     width: 68%;
@@ -142,14 +210,6 @@
 
 .form-input_row .third-part{
     width: 28%;
-}
-
-.form-six .form-foot-flex{
-    background: transparent;
-    border-top: 0;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 50px;
 }
 
 .form-five .card_img {
@@ -353,7 +413,9 @@
     color: white;   
 }
 
-
+.form-ecgo .table-ship{
+    width: 100%;
+}
 
     
 
@@ -375,9 +437,7 @@
     width: 47%;
 }
 
-.form-six .header{
-    color: #59CCA8;
-}
+
 
 
 .btn-print{
@@ -584,9 +644,23 @@
     margin: 40px 0;
 }
 
+.visa-ico{
+    position: absolute;
+    top: 38px;
+    right: 15px;
+}
+
+
+
+
+
+.marg-30{
+    margin-top: 25px;
+}
+
 .form-row>.col, .form-row>[class*=col-]{
     padding-right: 10px;
-    padding-left: 10px;
+    padding-left: 5px;
 }
 
 .form-control{
@@ -610,6 +684,7 @@
     border: 1px solid lightgray;
     border-radius: 3px;
     margin-bottom: 30px;
+    background: white;
 }
 
 .inv-1 button{
@@ -638,6 +713,7 @@
 
 .form-group-custom{
     width:100%;
+    position: relative;
 }
 
 .form-group-custom-block{
@@ -646,6 +722,18 @@
 
 .payment-cards{
     text-align: right;
+
+}
+
+.card-absol{
+    position: absolute; 
+    right: 0; 
+    top: 0;     
+}
+
+.marg-10{
+    margin-top: 1rem;
+    position: relative;
 }
 
 .payment-cards svg{
@@ -661,15 +749,154 @@
     height: auto!important;
 }
 
-@media (max-width: 991px){
+.give-form .card_img {
+    padding: 50px 80px 25px;
+}
+
+.form-give .header{
+    text-align: left;
+    font-weight: 400;
+    font-size: 24px;
+    color: #818183;
+    padding-top: 0;
+    padding-bottom: 30px;
+}
+
+.form-give .wrapper-icons.payment-cards{
+     position: absolute;
+    right: 20px;
+    top: 30px;   
+}
+
+.form-give #card-field{
+    padding-right: 170px;    
+}
+
+.form-give .card_img .payment-btn{
+    text-transform: uppercase;
+
+    border: none;
+    background: #47A581;
+    color: white;
+    width: 195px;
+    display: block;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.form-give .form-group{
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.form-give label{
+    text-transform: capitalize;
+    margin-bottom: 10px!important;
+}
+
+.give-form{
+    padding: 10% 15% 10% 15%;    
+}
+
+
+.give-form .header-part h1{
+    text-align: left;
+    color: #47A581;
+    font-weight: 300;
+    padding-bottom: 40px;
+}
+
+.give-form .card_img input {
+    background: #EDEDED;
+    border-radius: 5px;
+    border: 1.5px solid #cccccc;
+    height: 40px;
+}
+
+.give-form .form-give{
+    background-color: #F3F3F3;
+}
+
+.give-form .card_img select{
+    height: 40px;
+    background: #ededed;
+    border: 1.5px solid #cccccc;    
+}
+
+.marg-left{
+    margin-left: 30px;
+}
+
+.marg-fix{
+    margin-left: 5px;
+}
+
+.currency-form{
+   margin-left: 30px; 
+}
+
+
+
+@media (max-width: 1200px){
+    .form-row .make-btn {
+        font-size: 10px!important;
+    }
+}
+
+@media (max-width: 992px){
     .invoice-table .small-big-text .big {
         font-size: 18px;
+    }
+
+    .ecgo-two{
+        padding: 10% 10% 10% 10%!important;
+    }
+
+    .marg-left {
+        margin-left: 0;
+    }
+
+    .marg-fix {
+        margin-right: 5px;
+    }
+
+    .give-form {
+        padding: 10% 0% 10% 0%;
+    }
+
+    .bg-third {
+        padding: 10% 20% 10% 20%;
+    }
+
+    .bg-six {
+        padding: 10% 10% 10% 10%;
+    }
+
+    .bg-seven {
+        padding: 10% 20% 10% 20%;
     }
 }
 
 @media (max-width: 768px){
     td img{
         width: 70%;
+    }
+
+    .give-form .card_img {
+        padding: 50px 20px 25px;
+    }
+
+    .bg-third {
+        padding: 10% 10% 10% 10%;
+    }
+
+    .bg-six {
+        padding: 10% 0 10% 0;
+    }
+
+    .bg-seven {
+        padding: 10% 10% 10% 10%;
     }
 
     .invoice-table thead td {
@@ -698,6 +925,71 @@
         padding-left: 0;
         padding-top: 5px;
         padding-bottom: 5px;
+    }
+
+    .visa-ecgo{display: none;}
+
+    .ecgo-two{
+        padding: 10% 0 10% 0;
+    }
+
+    .marg-fix{
+        width: 100%;
+    }
+
+    .currency-form{
+        width: 100%;
+        margin-left: 5px;
+    }
+
+    .form-give .wrapper-icons.payment-cards{
+        display: none;
+    }
+
+    .form-give #card-field{
+        padding-right: 0;
+    }
+
+    .marg-sm{
+        margin-top: 25px;
+    }
+
+    .form-row .make-btn {
+        font-size: 14px!important;
+    }
+
+    .card-absol{
+        display: none;
+    }
+
+    .bg-third .card_img {
+        padding: 20px 20px 25px;
+        text-align: center;
+    }
+
+    .bg-third {
+        padding: 10% 0 10% 0;
+    }
+
+    .form-six .form-block {
+        width: 100%;
+    }
+
+    .six-submit span {
+        padding-right: 40px;
+    }
+
+    .form-six .form-input_row {
+        flex-direction: column;
+    }
+
+    .head_p.cvv{
+        padding-left: 15px;
+    }
+
+
+    .bg-seven {
+        padding: 10% 0 10% 0;
     }
 
     .i-text{
@@ -765,27 +1057,180 @@
     padding-top: 20px;
     padding-bottom: 40px;
 }
+
 .ecgo-form{
     padding: 10% 0% 10% 0%;
 }
 
 .form-ecgo .header{
     text-align: left;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
+    padding-left: 50px;
 }
 
 .top-label{
     text-transform: uppercase;
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid #96999C;
     padding-bottom: 10px;
     margin-bottom: 15px;
+    color: #6c7680;
+    font-weight: 500;
+    font-size: 14px;
 }
+
+.ecgo-form .card_img input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1.5px solid #cccccc;
+    border-radius: 0;
+}
+
+.ecgo-form .form-group label{
+    font-size: 12px;
+    width: 100%;
+    text-align: left;
+    font-weight: 600;
+}
+
+.visa-ecgo{
+    width: 35px;
+    top: 40px;
+    right: 25px;
+    position: absolute;
+}
+
+.question-ecgo{
+    width: 20px;
+    top: 35px;
+    right: 25px;
+    position: absolute;  
+}
+
+.edit-card{
+    display: inline-block;
+    padding-left: 5px;
+    font-size: 10px;
+    color: grey;
+    text-decoration: none;
+}
+
+.ecgo-form .edit-card:hover{
+    text-decoration: none;
+}
+
+.ecgo-form .submiter{
+    background: #4CB8A8;
+    color: white;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding-top: 15px!important;
+    padding-bottom: 15px!important;
+    border: none;
+    margin-top: 10px;
+    font-weight:600;
+    cursor: pointer;
+    box-shadow: 0px 4px 14px 0px #80808052;
+}
+
+.ecgo-form .card_img {
+    padding: 20px 20px 25px;
+}
+
+
+
+
+
+
+
+.ecgo-form .card_img input::-webkit-input-placeholder { font-weight: 600; color: #3f3f3f;}
+.ecgo-form .card_img input::-moz-placeholder          { font-weight: 600; color: #3f3f3f;}/* Firefox 19+ */
+.ecgo-form .card_img input:-moz-placeholder           { font-weight: 600; color: #3f3f3f;}/* Firefox 18- */
+.ecgo-form .card_img input:-ms-input-placeholder      { font-weight: 600; color: #3f3f3f;}
 
 .top-headers{
     padding-top: 50px;
     padding-bottom: 50px;
     text-align: center;
 }
+
+/* Third  form */
+
+.dribble-ico{
+    width: 100px;
+    margin-top: -50px;
+    box-shadow: 2px 6px 15px 0px #a7a5a5ad;
+    border-radius: 72px;
+}
+
+.bg-third .header{
+    padding-top: 15px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.bg-third .sub-header{
+    color: #758391;
+    font-weight: 400;
+    font-size: 24px;
+    padding-bottom: 40px;
+}
+
+.bg-third .card_img input {
+    padding-left: 50px;
+}
+
+.form-third .form-block {
+    width: 100%;
+    position: relative;
+}
+
+.form-block.half{
+    width: 47%;
+}
+
+.form-third .card_img input {
+    height: 50px;
+    border: 1.8px solid #d1d1d1;
+    font-weight: 400;
+    color: #758391;
+}
+
+.envelove-ico, .credit-ico, .calendar-ico, .lock-ico{
+    position: absolute;
+    left: 18px;
+    top: 20px;
+    font-size: 12px;
+    color: #cecece;
+}
+
+.form-third .form-foot-flex .submit{
+    background: #3EB0EC;
+    border-radius: 0;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-weight: 400;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 24px;
+}
+
+.form-third input::-webkit-input-placeholder { font-weight: 400; color: #758391;}
+.form-third input::-moz-placeholder          { font-weight: 400; color: #758391;}/* Firefox 19+ */
+.form-third input:-moz-placeholder           { font-weight: 400; color: #758391;}/* Firefox 18- */
+.form-third input:-ms-input-placeholder      { font-weight: 400; color: #758391;}
+
+
+.form-third .form-block.carder input{
+    margin-bottom: 5px;
+}
+
+.bg-third .form-third{
+    background-color: #F3F3F5;
+}
+
+
+/* Third form */
 
 
 .form-one .header{
@@ -811,6 +1256,10 @@
     top: 100px;
 }
 
+.body-sev{
+    background-color: #E0E0E0;
+}
+
 .form-one .card-body{
     box-shadow: 2px 2px 15px 1px grey;
     flex-direction: column;
@@ -826,6 +1275,42 @@
     background: #FBFBFB;
 }
 
+.right-code{
+    background: #F9FAFC;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.left-code{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.row-forme{
+    height: 100vh;
+}
+
+.pay-info{
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: grey;
+}
 
 
+    
+.form-row .make-btn{
+    font-size: 12px;
+    margin-top: 20px;
+    padding-top: 14px;
+    border-radius: 0;
+    padding-bottom: 14px;  
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+    height: 50px;
+}
 
+.ecgo-two{
+    padding: 10% 20% 10% 20%;
+}

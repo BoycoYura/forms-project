@@ -5,7 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>ECGO-two form</title>
+    <title>ECGO-two</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/forms_0.css">
@@ -16,32 +16,35 @@
 <body>
 
 <div class="container">
-  <div class="bg start ecgo-form">
+  <div class="bg start ecgo-form ecgo-two">
     <form class="form-ecgo">
       <div class="form_text">
         
         <div class="header-part">
             <img src="images/Logo.PNG" alt="">
         </div>
+
+        <h3 class="header">Checkout</h3>
+
         <div class="card_img row">
-            <div class="form-part col-lg-12">
+            <div class="form-left-part col-lg-12">
                 
                 <p class="top-label">shipping details</p>
 
                 <div class="form-row">
                     <div class="form-group col-md-6">
-                        <input type="email" name="fname" class="form-control" id="fname" placeholder="">
+                        <input type="email" name="fname" class="form-control" id="fname" placeholder="Name Surname">
                     </div>
                     <div class="form-group col-md-6">
-                        <input type="password" name="lname" class="form-control" id="lname" placeholder="">
-                    </div>
-
-                    <div class="form-group col-md-6">
-                        <input type="password" name="lname" class="form-control" id="lname" placeholder="">
+                        <input type="password" name="lname" class="form-control" id="lname" placeholder="email@email.com">
                     </div>
 
                     <div class="form-group col-md-6">
-                        <input type="password" name="lname" class="form-control" id="lname" placeholder="">
+                        <input type="password" name="lname" class="form-control" id="lname" placeholder="Billing Address">
+                    </div>
+
+                    <div class="form-group col-md-6">
+                        <input type="password" name="lname" class="form-control" id="lname" placeholder="Phone Number">
                     </div>
                 </div>
 
@@ -49,50 +52,52 @@
 
                 <div class="form-row">
                     <div class="form-group col-md-12">
-                        <label for="fname">FIRTS NAME</label>
-                        <input type="email" name="fname" class="form-control" id="fname" placeholder="">
+                        <label for="fname">NAME ON CARD</label>
+                        <input type="email" name="fname" class="form-control" id="fname" placeholder="Daniel Hecker">
                     </div>
                 </div>
 
                 <div class="form-row">
                     <div class="form-group col-md-12">
-                        <label for="fname">FIRTS NAME</label>
-                        <input type="email" name="fname" class="form-control" id="fname" placeholder="">
+                        <label for="fname">CARD NUMBER</label>
+                        <input type="email" name="fname" class="form-control" id="fname" placeholder="4534 5555 5555 6565">
+                        <img class="visa-ecgo" src="images/visa.png" alt="">
                     </div>
                 </div>
 
                 <div class="form-row">
                     <div class="form-group col-md-6">
-                        <label for="fname">FIRTS NAME</label>
-                        <input type="email" name="fname" class="form-control" id="fname" placeholder="">
+                        <label for="fname">VALID THROUGH</label>
+                        <input type="email" name="fname" class="form-control" id="fname" placeholder="06/19">
                     </div>
                     <div class="form-group col-md-6">
-                        <label for="fname">FIRTS NAME</label>
-                        <input type="password" name="lname" class="form-control" id="lname" placeholder="">
+                        <label for="fname">CVC CODE</label>
+                        <input type="password" name="lname" class="form-control" id="lname" placeholder="20">
+                        <img class="question-ecgo" src="images/question-mark.png" alt="">
                     </div>
                 </div>
 
-                <p class="top-label">Your Order</p>
+                <p class="top-label">your order <a class="edit-card" href="">Edit Shopping Cart</a></p>
 
                 <div class="form-row">
                     <div class="form-group col-md-12">
-                        <label for="fname">FIRTS NAME</label>
+                        <label for="fname">Payment description </label>
                         <input type="email" name="fname" class="form-control" id="fname" placeholder="">
                     </div>
                 </div>
 
                 <div class="form-row">
                     <div class="form-group col-md-6">
-                        <label for="fname">FIRTS NAME</label>
+                        <label for="fname">amount</label>
                         <input type="email" name="fname" class="form-control" id="fname" placeholder="">
                     </div>
                     <div class="form-group col-md-6">
-                        <label for="fname">FIRTS NAME</label>
+                        <label for="fname">currency</label>
                         <input type="password" name="lname" class="form-control" id="lname" placeholder="">
                     </div>
                 </div>
 
-                <input type="submit">
+                <input type="submit" class="submiter" value="Purchase 537.00 SEK">
             </div>
         </div>
 
