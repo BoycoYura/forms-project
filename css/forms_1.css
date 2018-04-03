@@ -222,6 +222,19 @@ h4 .total_prise{
     padding: 20px 0 5px;
 }
 
+.form-block{
+	width: 100%;
+}
+
+.form-block input::-webkit-input-placeholder {
+  color: #cacaca;
+}
+
+.form-block input {
+    background: white;
+    color: #000;
+}
+
 @media (max-width: 1200px){
 	.card_img {
 	    padding: 25px 45px 15px 40px;

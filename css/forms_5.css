@@ -101,6 +101,19 @@ body{
     height: 46px;
 }
 
+.form-block{
+	width: 100%;
+}
+
+.form-block input::-webkit-input-placeholder {
+  color: #cacaca;
+}
+
+.form-block input {
+    background: white;
+    color: #000;
+}
+
 body svg{
 	color: #cacaca !important;
 }
