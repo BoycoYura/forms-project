@@ -21,6 +21,13 @@
     padding: 10px 0 10px;
 }
 
+#special-input-3{
+    background: #004F9A;
+}
+
+#special-cvv{
+    background: #004F9A;
+}
 .bg-seven .card_img {
     padding: 40px 30px 25px;
 }
@@ -1101,6 +1108,10 @@ option{
         padding-bottom: 5px;
     }
 
+    .mastercardlogo {
+        left: 65px!important;
+    }
+
     .visa-ecgo{display: none;}
 
     .ecgo-two{
@@ -1281,6 +1292,14 @@ option{
     }
 }
 
+
+@media(max-width: 415px){
+.mastercardlogo {
+left: 120px!important;
+}
+}
+
+
 @media (max-width: 400px){
     .fa-check {
         position: relative;
@@ -1398,10 +1417,9 @@ option{
 }
 
 .mastercardlogo{
-    width: 50px;
     height: 50px;
     position: relative;
-    left: 145px;
+    left: 225px;
 }
 
 .ecgo-form .header-part{
