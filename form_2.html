@@ -16,41 +16,93 @@
 <body>
 
 <div class="container">
+
+
   <div class="bg start bg-two">
+
     <form class="form-seven form-two">
       <div class="form_text">
-        <div class="card_img">
+        <div class="card_img ">
 
           <div class="card-left-part">
-            <p class="title">ORDER NUMBER</p>
+
+            <p class="title special-title">ORDER NUMBER</p>
             <p class="value">5125125125152152</p>
 
             <p class="title">AMOUNT</p>
-            <p class="value name">$2.178<span>,00</span></p>
+            <p class="value name">$375<span>,90</span></p>
+
+              <div class="btn-group btn-secondary-margin">
+                  <div class="btn-group dropleft" role="group">
+                      <button type="button" class="btn btn-secondary btn-secondary-close dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          <span class="sr-only">Toggle Dropleft</span>
+                      </button>
+                      <div class="dropdown-menu">
+                          <!-- Dropdown menu links -->
+                      </div>
+                  </div>
+                  <button type="button" class="btn btn-secondary btn-secondary-close ">
+                     CLOSE
+                  </button>
+              </div>
           </div>
+
+
 
           <div class="card-right-part">
+              <!-- Default dropright button -->
+              <div class="btn-group dropright">
+                  <button type="button" class="btn btn-secondary btn-secondary-special dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      MASTER CARD
+                  </button>
 
-            <input class="number" type="text" name="number" placeholder="3999 5876 3945 4567">
+                  <img class="mastercardlogo" src="images/mastercard-logo.png" alt="">
+                  <div class="dropdown-menu">
+                      <!-- Dropdown menu links -->
+                  </div>
+              </div>
 
-            <input class="number" type="text" name="number" placeholder="3999 5876 3945 4567">
+            <input id="special-input" class="number-2" type="text" name="number" placeholder="NICOLAS LANTHEMANN">
+
+            <input  id="special-input-2" class="number-2 " type="text" name="number" placeholder="3999 5876 3945 4567 ">
+
 
           <div class="form-input_row">
-            <div class="form-block">
-              <input class="data" type="text" name="number" placeholder="5">
+            <div class="form-block form-width-1">
+              <input id="special-input-3" class="data" type="text" name="number" placeholder="EXPIRATION">
             </div>
 
-            <div class="form-block">
-              <input class="cvv" type="text" name="number" placeholder="8">
+            <div class="form-block form-width-2">
+              <input class="cvv" type="text" name="number" placeholder="CVV">
             </div>
-          </div> 
-
-
           </div>
 
+
+
+              <div class="btn-group dropright">
+                  <button type="button" class="btn btn-secondary btn-secondary-special">
+                      PROCEED TO CHECKOUT
+                  </button>
+                  <button type="button" class="btn btn-secondary btn-secondary-special dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <span class="sr-only">Toggle Dropright</span>
+                  </button>
+                  <div class="dropdown-menu">
+                      <!-- Dropdown menu links -->
+                  </div>
+              </div>
+          </div>
+
+
+
         </div>
+
+
+
+
       </div>
-  
+
+
+
     </form>
   </div>
 </div>

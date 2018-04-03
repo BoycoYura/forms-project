@@ -59,9 +59,9 @@
 
 .form-seven .card_img input {
     border-radius: 0;
-    height: 60px;
+
     margin-bottom: 20px;
-    border: 2px solid #F3F3F3;
+    border: 1.5px solid #F3F3F3;
     color: #cecece;
     font-weight: 600
 }
@@ -92,11 +92,105 @@
 }
 
 .form-six .card_img .data {
-     border-right: 2px solid #9e9e9e;;
+    border-right: 2px solid #9e9e9e;
+}
+
+.fa-check:before {
+display: none!important;
+}
+
+.fa-check{
+    position: relative;
+    left: 70px;
+}
+
+.arrow-top-img{
+    position: relative;
+    right:50px;
+}
+
+.form-six .card_img .data {
+     border-right: 1px solid #cccccc;
+}
+
+input .data {
+    border: 1px solid #cccccc!important;
 }
 
 .bg-six {
     padding: 10% 20% 10% 20%;
+}
+
+.table-ship tr td:first-child{
+    text-align: left;
+}
+
+.table-ship tr td{
+    vertical-align: top;
+    padding: 10px;
+}
+
+.summ-info .summ-item{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+.summ-info{
+    border-bottom: 1.5px solid grey;
+    padding-bottom: 10px;
+}
+
+
+.table-ship .table-text{
+    padding-top: 15px;
+    font-weight: bold;
+    color: #3f3f3f;
+    font-size: 16px;
+}
+
+.table-ship .table-text.number{
+    background: #ffffff;
+    width: 20px;
+    display: inline-block;
+    padding-top: 0;
+    border: 1px solid #d3b8b8;
+    font-size: 12px;
+    height: 25px;
+    padding-top: 5px;
+    margin-top: 10px;
+}
+
+.table-ship .table-text.number:hover{
+    background: #4CB8A8;
+    color: white;
+    cursor: pointer;
+}
+
+.table-ship .table-text.summ{
+    padding-top: 28px;
+}
+
+.table-ship tr{
+    border-bottom: 1.5px solid grey;
+}
+
+
+
+
+.table-ship td p:not(table-text){
+    font-size: 13px;
+    color: #b8abab;
+    margin-top: 5px;
+    font-weight: 600;
+}
+
+
+.ecgo-form .flex-row{
+    display: flex;
+    justify-content: space-around;
 }
 
 .form-six .form-block .data{
@@ -345,8 +439,8 @@
     padding-top: 30px;
     font-size: 24px;
     font-weight: bold;
-    padding-bottom: 80px;
 }
+
 
 .form-four .card-left-part .title{
     font-size: 12px;
@@ -389,10 +483,19 @@
     padding: 10% 25% 10% 25%;
 }
 
+option{
+   background-color: #1F3449;;
+}
+
 .exp-line span{
-    font-size: 24px;
+    font-size: 20px;
     padding-top: 15px;
     padding-right: 40px;
+}
+
+.form-four .number {
+    border:1px solid #ffc107!important;
+
 }
 
 .exp-line .exp-select select{
@@ -403,29 +506,37 @@
     color: white;
 }
 
+.form-four .data input{
+    border: 1px solid RGBA(89,89,89,0.46);
+}
 
+.form-four .card_img input{
+    border: 1px solid  RGBA(89,89,89,0.66)!important;
+}
 .card-right-part label{
     padding-bottom: 10px;
 }
 
 .form-four .card_img input{
      background: transparent;
-    color: white;   
+     color: white;
 }
 
 .form-ecgo .table-ship{
     width: 100%;
 }
 
-    
 
-    
-
-
-
-
+::-webkit-input-placeholder {color:white;}
+::-moz-placeholder          {color:white;}/* Firefox 19+ */
+:-moz-placeholder           {color:white;}/* Firefox 18- */
+:-ms-input-placeholder      {color:white;}
 
 
+.arrow-top{
+    padding-bottom: 80px;
+
+}
 
 
 .label-row{
@@ -434,10 +545,16 @@
 }
 
 .form-seven .form-block{
-    width: 47%;
+
 }
 
+.form-block{
+    width: 20%;
+}
 
+.bg-seven .form-block {
+    width: 48%;
+}
 
 
 .btn-print{
@@ -722,7 +839,6 @@
 
 .payment-cards{
     text-align: right;
-
 }
 
 .card-absol{
@@ -749,6 +865,7 @@
     height: auto!important;
 }
 
+
 .give-form .card_img {
     padding: 50px 80px 25px;
 }
@@ -774,7 +891,6 @@
 
 .form-give .card_img .payment-btn{
     text-transform: uppercase;
-
     border: none;
     background: #47A581;
     color: white;
@@ -844,13 +960,22 @@
     }
 }
 
-@media (max-width: 992px){
+@media (max-width: 992px) {
     .invoice-table .small-big-text .big {
         font-size: 18px;
     }
 
-    .ecgo-two{
-        padding: 10% 10% 10% 10%!important;
+    .ecgo-form .submiter {
+        margin-bottom: 30px;
+    }
+
+    .form-ecgo .header {
+        text-align: center!important;
+        padding-left: 0!important;
+    }
+
+    .ecgo-two {
+        padding: 10% 10% 10% 10% !important;
     }
 
     .marg-left {
@@ -878,6 +1003,36 @@
     }
 }
 
+@media(max-width:1200px){
+
+.bg {
+    padding: 10% 32% 10% 7%;
+}
+}
+
+@media (max-width: 991px){
+    .invoice-table .small-big-text .big {
+        font-size: 18px;
+    }
+    .mastercardlogo {
+        left: 100px!important;
+    }
+    .form-two #special-input{
+        background-position: 260px!important;
+    }
+    .form-two #special-input-2{
+        background-position: 260px!important;
+    }
+
+    .form-two #spcial-input-3{
+        background-position: 120px;
+    }
+
+    .bg {
+        padding: 10% 13% 10% 7%!important;
+    }
+}
+
 @media (max-width: 768px){
     td img{
         width: 70%;
@@ -897,6 +1052,25 @@
 
     .bg-seven {
         padding: 10% 10% 10% 10%;
+    }
+
+    .bg-two {
+        padding: 7% 0% 3% 0%!important;
+    }
+
+    .mastercardlogo {
+        left: 185px!important;
+    }
+    .form-two #special-input{
+        background-position: 230px!important;
+    }
+    .form-two #special-input-2{
+        background-position: 230px!important;
+    }
+
+    .form-two #special-input-3{
+        background-position: 105px!important;
+        padding-left: 5px!important;
     }
 
     .invoice-table thead td {
@@ -1000,8 +1174,146 @@
         font-size: 12px;
         line-height: 25px;
     }
+
+    .bg {
+        padding: 10% 0% 14% 1%!important;
+    }
+
+    .fa-check svg{
+        margin-left: 37px;
+    }
 }
 
+@media (max-width: 480px){
+    .bg-four .card_img{
+        flex-direction: column;
+    }
+
+    .form-two .card_img{
+
+        flex-direction: column;
+
+    }
+
+    .form-two .card-right-part {
+        width: 100%!important;
+        border-top-right-radius: 12px;
+        border-bottom-right-radius: 12px;
+        background: #004F9A;
+    }
+
+    .form-two .card-left-part {
+        width: 100%!important;
+        background: white;
+        align-items: center!important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .form-two #special-input-3 {
+        background-position: 150px !important;
+        padding-left: 20px !important;
+
+    }
+    .mastercardlogo {
+        left: 190px!important;
+    }
+
+    .btn-secondary-margin {
+        padding-top: 10px!important;
+        left: 20px;
+    }
+
+    .special-title {
+        margin-top: 50px!important;
+    }
+
+    .btn-secondary-margin{
+        margin-bottom: 10px!important;
+    }
+
+    .form-two #special-input {
+        background-position: 340px!important;
+    }
+    .form-two #special-input-2 {
+        background-position: 340px!important;
+    }
+
+    .card-left-part {
+        width: 100%;
+        background: #CBD5D7;
+        padding-left: 30px;}
+
+    .card-right-part {
+        width: 100%;
+        background: #1F3449;}
+
+    .card-left-part .text{
+        text-align: center;
+    }
+
+    .card_img p{
+        text-align: center;
+    }
+    .arrow-top-img {
+        position: relative;
+        right: 100px;
+    }
+
+    .arrow-top {
+        padding-bottom: 20px;
+    }
+
+    .exp-line span{
+        font-size: 19px;
+    }
+    .exp-line .exp-select select{
+        font-size: 19px;
+    }
+}
+
+
+@media(max-width: 440px){
+    .mastercardlogo {
+        left: 150px!important;
+    }
+}
+
+@media (max-width: 400px){
+    .fa-check {
+        position: relative;
+        left: 30px;
+    }
+    .form-two #special-input-2 {
+        background-position: 245px!important;
+    }
+    .form-two #special-input-3 {
+        background-position: 245px!important;
+    }
+
+    .form-two #special-input-1 {
+        background-position: 115px!important;
+    }
+
+    .mastercardlogo {
+        left: 100px!important;
+    }
+}
+
+@media (max-width: 365px){
+    .arrow-top-img {
+        position: relative;
+        right: 70px;
+    }
+}
+
+@media (max-width: 320px){
+    .mastercardlogo {
+        left: 50px!important;
+    }
+}
 
 
 .form-four .form-block {
@@ -1019,23 +1331,50 @@
 }
 
 .form-two .card-left-part {
-    width: 40%;
+    width: 35%;
     background: white;
 
-    align-items: center;
+    align-items: left;
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 0;
 }
 
+#special-input{
+    margin-top: 35px;
+}
+
+.form-two .card-left-part p{
+    left:30px;
+    position: relative;
+}
+
+.title{
+    margin-top: 20px;
+}
+
+.form-width-1{
+    width: 50%;
+}
+
+.form-width-2{
+    width: 35%;
+}
+
+.special-title{
+    margin-top: 105px;
+}
+
 .form-two .card-right-part {
-    width: 60%;
+    width: 65%;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
     background: #004F9A;
 }
 
 .bg-two {
-    padding: 10% 25% 10% 25%;
+    padding: 7% 10% 10% 22%;
 }
 
 .form-two .card-left-part .title {
@@ -1052,6 +1391,19 @@
     padding-bottom: 10px;
 }
 
+
+.form-two .card-left-part{
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+.mastercardlogo{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 145px;
+}
+
 .ecgo-form .header-part{
     text-align: center;
     padding-top: 20px;
@@ -1065,7 +1417,7 @@
 .form-ecgo .header{
     text-align: left;
     margin-bottom: 20px;
-    padding-left: 50px;
+    padding-left: 65px;
 }
 
 .top-label{
@@ -1126,7 +1478,7 @@
     text-transform: uppercase;
     padding-top: 15px!important;
     padding-bottom: 15px!important;
-    border: none;
+    border: none!important;
     margin-top: 10px;
     font-weight:600;
     cursor: pointer;
@@ -1280,6 +1632,97 @@
     padding-left: 40px;
     padding-right: 40px;
 }
+
+.btn-secondary-special{
+    background-color: #004F9A!important;
+    border-color: #004F9A!important;
+    height: 50px;
+    color:#839494;
+
+}
+
+.btn-secondary-close{
+    background-color: white;
+    color:#004F9A;
+    font-weight: 600;
+    border:none;
+}
+.btn-secondary-margin{
+    padding-top: 75px;
+    left:20px;
+}
+.number-2{
+    background-color: #004F9A;
+}
+.number-2 input{
+    border: 2px solid white!important;
+
+}
+
+
+
+/* FORM NUMBER 2 */
+.form-two  #special-input{
+    background-image: url(../images/human.PNG);
+    background-repeat: no-repeat; /*Убираем повтор изображения*/
+    background-position: 310px; /*Позиционируем*/
+    outline: none; /*убирам стандартную обводку браузера*/
+    -moz-border-radius: 5px; /*закругляем углы для Mozilla*/
+    -webkit-border-radius: 5px; /*закругляем углы для Chrome, Safari*/
+    border-radius: 5px; /*закругляем углы для остальных браузеров*/
+    padding-left: 20px; /*отступ слева от ввода, чтобы текст не был на картинке(выбирать по размеру картинки)*/
+
+}
+
+
+.form-two  #special-input-2{
+    background-image: url(../images/zamok.PNG);
+    background-repeat: no-repeat; /*Убираем повтор изображения*/
+    background-position: 310px; /*Позиционируем*/
+    outline: none; /*убирам стандартную обводку браузера*/
+    -moz-border-radius: 5px; /*закругляем углы для Mozilla*/
+    -webkit-border-radius: 5px; /*закругляем углы для Chrome, Safari*/
+    border-radius: 5px; /*закругляем углы для остальных браузеров*/
+    padding-left: 20px; /*отступ слева от ввода, чтобы текст не был на картинке(выбирать по размеру картинки)*/
+
+}
+
+.form-two  #special-input-3{
+    background-image: url(../images/expi.PNG);
+    background-repeat: no-repeat; /*Убираем повтор изображения*/
+    background-position: 130px; /*Позиционируем*/
+    outline: none; /*убирам стандартную обводку браузера*/
+    -moz-border-radius: 5px; /*закругляем углы для Mozilla*/
+    -webkit-border-radius: 5px; /*закругляем углы для Chrome, Safari*/
+    border-radius: 5px; /*закругляем углы для остальных браузеров*/
+    padding-left: 20px; /*отступ слева от ввода, чтобы текст не был на картинке(выбирать по размеру картинки)*/
+    padding-top: 10px;
+
+}
+
+
+
+.form-two input .number-2{
+
+    border:2px solid blue;
+}
+
+.form-two input .number-2 :hover{
+    border:2px solid blue;
+}
+
+.form-third .form-block input{
+    background: transparent;
+}
+
+.form-third .form-block input
+
+
+.form-block input{
+    background: #004F9A;
+    color:white;
+}
+/*::-webkit-input-placeholder {color:white; background-color: #004F9A; background-size: 100% 100%;}*/
 
 .left-code{
     padding-left: 40px;
