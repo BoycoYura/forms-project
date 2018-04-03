@@ -1775,3 +1775,101 @@ left: 120px!important;
 .ecgo-two{
     padding: 10% 20% 10% 20%;
 }
+
+/* LIP */
+.LIP{
+    background: #fcfcfc;
+}
+
+.LIP header{
+    background: #fff;
+    border: 1px solid #eaeaea;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.LIP h2{
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.LIP h3{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-bottom: 20px;
+    padding-top: 5px;
+    letter-spacing: 2px;
+}
+
+.LIP h4{
+    margin: 0; 
+}
+
+.LIP label{
+    color: #9aa5a9;
+}
+
+.LIP header h2{
+    font-weight: 400;
+    padding: 20px 0 15px;
+    vertical-align: middle;
+}
+
+.LIP header img{
+    height: 16px;
+    width: auto;
+    margin-left: -7px;
+}
+
+.LIP .pur{
+    color: #943f87;
+    font-weight: 700;
+}
+
+.LIP .top-headers h2{
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.LIP .top-headers h6{
+    font-style: italic;
+}
+
+.LIP .top-headers {
+    padding-top: 50px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.LIP .inv_1{
+    background: #fff;
+    border: 1px solid #eaeaea;
+    padding: 15px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+.LIP .custom-select{
+    height: 49px;
+}
+
+.LIP button{
+    width: 110%;
+    margin-right: -16px;
+    background: #99418a;
+    border-radius: 0;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+@media (max-width: 992px) {
+    .LIP button {
+        width: 100%;
+        margin-right: 0;
+    }
+}
+/* LIP end */
