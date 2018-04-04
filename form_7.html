@@ -150,9 +150,9 @@
 				</div>
         </div>
         <div class="loading-bar" data-progress="0"><span></span></div>
-		<svg class="checkmark checkmark-success" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+<!-- 		<svg class="checkmark checkmark-success" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
 <circle class="checkmark-circle" cx="25" cy="25" r="25" fill="none"/><path class="checkmark-check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/></svg>
-<!-- 		<svg class="checkmark checkmark-error" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50"><circle class="checkmark-circle" cx="25" cy="25" r="25" fill="none"/><path class="checkmark-check" fill="none" d="M16,34L25 25 34 16 "/><path class="checkmark-check" fill="none" d="M16,16L25 25 34 34 "/></svg> -->
+		<svg class="checkmark checkmark-error" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50"><circle class="checkmark-circle" cx="25" cy="25" r="25" fill="none"/><path class="checkmark-check" fill="none" d="M16,34L25 25 34 16 "/><path class="checkmark-check" fill="none" d="M16,16L25 25 34 34 "/></svg> -->
     </div>
 </div>
 
@@ -179,7 +179,15 @@ $(document).ready(function(){
             success: function(data){
                 alert("success");
                 console.log(data);
-                $("#processing").css('display','block').delay(4000).fadeOut('fast');
+                $("#processing").css('display','block').delay(3000).fadeOut('fast');
+
+                setTimeout(function () {
+                    var url = "handler.php";
+                    $(location).attr('href',url);
+                }, 3000);
+
+
+
             }
         });
     })
