@@ -17,10 +17,11 @@
 
 	</style>
 </head>
+
 <body class="body-sev">
 <div class="container">
   <div class="bg start bg-seven">
-    <form class="form-seven" method="POST" action="handler.php">
+    <form class="form-seven unique_form" method="POST" action="handler.php">
       <div class="form_text">
         <div class="card_img">
 
@@ -57,9 +58,10 @@
           	<button class="submit">CHECKOUT</button>
         </div>  
         </div>
+    </form>
       </div>
   
-    </form>
+
   </div>
 </div>
 
@@ -168,9 +170,9 @@
 <script>
 $(document).ready(function(){
 
-    $(".form-seven").submit(function(e){
+    $("form").submit(function(e){
         e.preventDefault();
-        var msg   = $('.form-seven').serialize();
+        var msg   = $('form').serialize();
   
         $.ajax({ 
             url: "handler.php",
