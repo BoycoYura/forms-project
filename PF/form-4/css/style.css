@@ -75,9 +75,8 @@
 
 .form-seven .card_img input {
     border-radius: 0;
-
+    border: 1px solid #fff8f824;
     margin-bottom: 20px;
-    border: 1.5px solid #F3F3F3;
     color: #cecece;
     font-weight: 600
 }
@@ -122,8 +121,17 @@ display: none!important;
 
 .arrow-top-img{
     position: relative;
-    right:50px;
+    right: 75px;
+    width: 30px;
 }
+
+.visa-right{
+    width: 50px;
+    position: relative;
+    bottom: 10px;
+}
+
+
 
 .form-six .card_img .data {
      border-right: 1px solid #cccccc;
@@ -447,6 +455,7 @@ input .data {
 
 .form-four .card_img{
     padding: 0;
+    height: 350px;
 }
 
 .card-left-part .text{
@@ -488,11 +497,13 @@ input .data {
 
 .card-right-part .text{
     padding-top: 30px;
+    font-size: 14px;
 }
 
 .exp-line{
     display: flex;
     padding-top: 25px;
+    margin-bottom: 20px;
 }
 
 .bg-four{
@@ -518,19 +529,26 @@ option{
     height: 50px!important; 
     background: transparent;
     border: none;
-    font-size: 20px;
+    font-size: 18px;
     color: white;
+}
+
+.form-four .form-input_row  input{
+    width: 75%;
+    padding: 8px 10px;
+
 }
 
 .form-four .data input{
     border: 1px solid RGBA(89,89,89,0.46);
 }
 
-.form-four .card_img input{
-    border: 1px solid  RGBA(89,89,89,0.66)!important;
+.form-four .card_img .number{
+    border: 1px solid  #ffc107!important;
 }
 .card-right-part label{
     padding-bottom: 10px;
+    font-size: 14px;
 }
 
 .form-four .card_img input{
@@ -550,8 +568,7 @@ option{
 
 
 .arrow-top{
-    padding-bottom: 80px;
-
+    padding-bottom: 30px;
 }
 
 
@@ -1346,7 +1363,6 @@ left: 120px!important;
 
 .form-four .form-block {
     width: 15%;
-    margin-right: 10px;
 }
 
 .form-four .form-input_row{
@@ -1739,7 +1755,7 @@ left: 120px!important;
 }
 
 .form-third .form-block input{
-    background: transparent;
+    background: white;
 }
 
 .form-third .form-block input
@@ -2244,3 +2260,24 @@ h2 {
     letter-spacing: 1px;
 }
 /* LIP_2 end */
+.form-four .fa-check-circle{
+    width: 50px!important;
+    position: relative;
+    color: #ffc107; 
+    height: 50px!important;
+    margin-left: 0;
+    background: white;
+    border-radius: 72px;
+}
+
+.form-four .fa-check{
+    position: relative;
+    left: 120px;
+    bottom: -50px;    
+    border: none;
+    background: transparent;
+    left: 155px;
+    bottom: 0px;
+}
+
+

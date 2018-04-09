@@ -235,6 +235,17 @@ form h2 {
         color: #ff002f;
         font-weight: 400;
     }
+
+    .false-pay{
+        color: #EF5366;
+    }
+
+    .false-pay-ico{
+        color: #EF5366; 
+        font-size: 150px;
+        margin-bottom: 50px;
+    }
+
 /* form 0 false end */
 
 /* md */

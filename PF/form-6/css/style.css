@@ -279,10 +279,10 @@ input .data {
     padding-bottom: 50px;
 }
 
-.form-six input::-webkit-input-placeholder { font-weight: 600;}
-.form-six input::-moz-placeholder          { font-weight: 600;}/* Firefox 19+ */
-.form-six input:-moz-placeholder           { font-weight: 600;}/* Firefox 18- */
-.form-six input:-ms-input-placeholder      { font-weight: 600;}
+.form-six input::-webkit-input-placeholder { font-weight: 600;     color: #705f5f;}
+.form-six input::-moz-placeholder          { font-weight: 600;     color: #705f5f;}/* Firefox 19+ */
+.form-six input:-moz-placeholder           { font-weight: 600;     color: #705f5f;}/* Firefox 18- */
+.form-six input:-ms-input-placeholder      { font-weight: 600;     color: #705f5f;}
 
 /* Six form */
 

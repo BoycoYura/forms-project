@@ -481,10 +481,23 @@ input .data {
 
 .card-right-part{
     color: white;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 0;
+    padding-right: 0;
     text-align: left;
 }
+
+.drop-card{
+    border-bottom: 1px solid #fffbfba6;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.drop-card .btn-secondary{
+    margin-left: 40px!important;
+}
+
+
 
 .card-right-part .text{
     padding-top: 30px;
@@ -1356,6 +1369,11 @@ left: 120px!important;
 .form-two .card_img {
     padding: 0;
     display: flex;
+    position: relative;
+}
+
+.redi{
+    margin-top: 30px;
 }
 
 .form-two .card-left-part {
@@ -1374,8 +1392,23 @@ left: 120px!important;
 }
 
 .form-two .card-left-part p{
-    left:30px;
+    left:40px;
     position: relative;
+}
+
+.fa-angle-left{
+    color: #004F9A;
+    top: -15px;
+    left: 0px;
+    position: relative;
+}
+
+.btn-secondary-close{
+    position: relative;
+    text-decoration: none;
+    top: -14px;
+    left: 15px;
+    font-size: 13px;
 }
 
 .title{
@@ -1395,28 +1428,32 @@ left: 120px!important;
 }
 
 .form-two .card-right-part {
-    width: 65%;
-    border-top-right-radius: 12px;
-    border-bottom-right-radius: 12px;
+    width: 66%;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
     background: #004F9A;
 }
 
 .bg-two {
-    padding: 7% 10% 10% 22%;
+    padding: 7% 22% 10% 22%;
 }
 
 .form-two .card-left-part .title {
     font-size: 12px;
     font-weight: bold;
-    color: black;
+    color: #3f3f3f;
     padding-bottom: 10px;
 }
 
 .form-two .card-left-part .value {
-    font-size: 12px;
-    font-weight: bold;
+    font-size: 18px;
+    font-weight: 300;
     color: #004F9A;
     padding-bottom: 10px;
+}
+
+.form-two .value.name span{
+    font-size: 12px;
 }
 
 
@@ -1426,10 +1463,25 @@ left: 120px!important;
 }
 
 .mastercardlogo{
-    height: 50px;
+    height: 40px;
     position: relative;
-    left: 225px;
+    left: 110px;
+    top: 5px;
 }
+
+.middle-inputs{
+    padding-left: 30px;
+    padding-right: 30px;    
+}
+
+.middle-inputs input{
+    border-radius: 0!important;
+    color: #bdd2d2!important;
+    font-weight: 400!important;
+    font-size: 13px;
+}
+
+
 
 .ecgo-form .header-part{
     text-align: center;
@@ -1599,6 +1651,11 @@ left: 120px!important;
 .form-third input:-moz-placeholder           { font-weight: 400; color: #758391;}/* Firefox 18- */
 .form-third input:-ms-input-placeholder      { font-weight: 400; color: #758391;}
 
+.form-two input::-webkit-input-placeholder { font-weight: 400; color: #bdd2d2; font-size: 13px;}
+.form-two input::-moz-placeholder          { font-weight: 400; color: #bdd2d2; font-size: 13px;}/* Firefox 19+ */
+.form-two input:-moz-placeholder           { font-weight: 400; color: #bdd2d2; font-size: 13px;}/* Firefox 18- */
+.form-two input:-ms-input-placeholder      { font-weight: 400; color: #bdd2d2; font-size: 13px;}
+
 
 .form-third .form-block.carder input{
     margin-bottom: 5px;
@@ -1664,8 +1721,7 @@ left: 120px!important;
     background-color: #004F9A!important;
     border-color: #004F9A!important;
     height: 50px;
-    color:#839494;
-
+    color: #bdd2d2;
 }
 
 .btn-secondary-close{
@@ -1675,7 +1731,7 @@ left: 120px!important;
     border:none;
 }
 .btn-secondary-margin{
-    padding-top: 75px;
+    padding-top: 120px;
     left:20px;
 }
 .number-2{
@@ -1683,8 +1739,14 @@ left: 120px!important;
 }
 .number-2 input{
     border: 2px solid white!important;
-
 }
+
+.redi.btn-secondary{
+    font-size: 14px;
+    padding-left: 50px;
+}
+
+
 
 
 
@@ -1723,8 +1785,24 @@ left: 120px!important;
     -webkit-border-radius: 5px; /*закругляем углы для Chrome, Safari*/
     border-radius: 5px; /*закругляем углы для остальных браузеров*/
     padding-left: 20px; /*отступ слева от ввода, чтобы текст не был на картинке(выбирать по размеру картинки)*/
-    padding-top: 10px;
+    padding-top: 5px;
+    height: 38px;
 
+}
+
+.card_img:before {
+    z-index: 2;
+    content: '';
+    width: 100%;
+    height: 0.5px;
+    background: #759ec6;
+    position: absolute;
+    bottom: 60px;
+}
+
+.redi .fa-angle-right{
+    margin-left: 120px;
+    font-size: 14px;
 }
 
 
