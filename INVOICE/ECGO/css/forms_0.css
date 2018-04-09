@@ -9,6 +9,10 @@
     src: url(../fonts/Segoe_Bold.ttf); /* Путь к файлу со шрифтом */
 }
 
+
+.top-label{
+    width: 98%;
+}
 /* form 0 */
 
 body{
@@ -67,6 +71,7 @@ form h2 {
 
 .card_img p{
     text-align: left;
+    padding-left: 10px;
 }
 
 .card_img .container-fluid{

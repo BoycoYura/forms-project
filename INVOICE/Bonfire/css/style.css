@@ -15,6 +15,17 @@
     border-radius: 0px 20px 20px 10px;
 }
 
+
+.top-menu-head{
+    display:flex;
+    justify-content: space-between;
+}
+
+.safe-bonf{
+    display: inline-flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
 #processing .fa-cogs{
     position: absolute;
     top: 100px;
@@ -621,8 +632,6 @@ option{
 }
 
 .merchant .form-group{
-    margin-left: 15px;
-    margin-right: 15px;
     margin-bottom: 10px;
 
 }
