@@ -24,6 +24,9 @@
     display: none;
 }
 
+.wrapper-all-tun{
+    display: flex;
+}
 /* Seven form */
 
 .bg-seven .head_p {

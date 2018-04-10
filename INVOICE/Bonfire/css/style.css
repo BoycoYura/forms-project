@@ -636,6 +636,13 @@ option{
 
 }
 
+.backpager{
+    background: gainsboro;
+}
+
+.clock{
+    width: 100%;
+}
 .merchant .form-group input{
     border-radius: 0;
     border-color: #1AB394;
