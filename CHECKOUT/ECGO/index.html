@@ -15,7 +15,7 @@
 </head>
 <body>
 
-<div class="container">
+<div class="container-fluid">
   <div class="bg start ecgo-form">
     <form class="form-ecgo">
       <div class="form_text">
@@ -33,34 +33,34 @@
 
                 <div class="form-row">
                     <div class="form-group col-md-6">
-                        <input type="email" name="fname" class="form-control" id="fname" placeholder="Name Surname">
+                        <input type="text" name="fname" class="form-control" id="fname" placeholder="Name Surname" required="true">
                     </div>
                     <div class="form-group col-md-6">
-                        <input type="password" name="lname" class="form-control" id="lname" placeholder="email@email.com">
-                    </div>
-
-                    <div class="form-group col-md-6">
-                        <input type="password" name="lname" class="form-control" id="lname" placeholder="Billing Address">
+                        <input type="email" name="lname" class="form-control" id="lname" placeholder="email@email.com" required="true">
                     </div>
 
                     <div class="form-group col-md-6">
-                        <input type="password" name="lname" class="form-control" id="lname" placeholder="Phone Number">
+                        <input type="text" name="lname" class="form-control" id="lname" placeholder="Billing Address" required="true">
+                    </div>
+
+                    <div class="form-group col-md-6">
+                        <input type="tel" name="lname" class="form-control" id="lname" placeholder="Phone Number" required="true">
                     </div>
                 </div>
 
-                <p class="top-label">payment details</p>
+                <p class="top-label pay-label">payment details</p>
 
                 <div class="form-row">
                     <div class="form-group col-md-12">
                         <label for="fname">NAME ON CARD</label>
-                        <input type="email" name="fname" class="form-control" id="fname" placeholder="Daniel Hecker">
+                        <input type="text" name="fname" class="form-control" id="fname" placeholder="Daniel Hecker" required="true">
                     </div>
                 </div>
 
                 <div class="form-row">
                     <div class="form-group col-md-12">
                         <label for="fname">CARD NUMBER</label>
-                        <input type="email" name="fname" class="form-control" id="fname" placeholder="4534 5555 5555 6565">
+                        <input type="tel" name="fname" class="form-control" id="fname" placeholder="4534 5555 5555 6565" required="true">
                         <img class="visa-ecgo" src="images/visa.png" alt="">
                     </div>
                 </div>
@@ -68,11 +68,11 @@
                 <div class="form-row">
                     <div class="form-group col-md-6">
                         <label for="fname">VALID THROUGH</label>
-                        <input type="email" name="fname" class="form-control" id="fname" placeholder="06/19">
+                        <input type="text" name="fname" class="form-control" id="fname" placeholder="06/19" required="true">
                     </div>
                     <div class="form-group col-md-6">
                         <label for="fname">CVC CODE</label>
-                        <input type="password" name="lname" class="form-control" id="lname" placeholder="20">
+                        <input type="text" name="lname" class="form-control" id="lname" placeholder="20" required="true">
                         <img class="question-ecgo" src="images/question-mark.png" alt="">
                     </div>
                 </div>
@@ -84,18 +84,18 @@
                 <div class="form-row">
                     <div class="form-group col-md-12">
                         <label for="fname">Payment description </label>
-                        <input type="email" name="fname" class="form-control" id="fname" placeholder="">
+                        <input type="text" name="fname" class="form-control" id="fname" placeholder="" required="true">
                     </div>
                 </div>
 
                 <div class="form-row">
                     <div class="form-group col-md-6">
                         <label for="fname">amount</label>
-                        <input type="email" name="fname" class="form-control" id="fname" placeholder="">
+                        <input type="text" name="fname" class="form-control" id="fname" placeholder="" required="true">
                     </div>
                     <div class="form-group col-md-6">
                         <label for="fname">currency</label>
-                        <input type="password" name="lname" class="form-control" id="lname" placeholder="">
+                        <input type="text" name="lname" class="form-control" id="lname" placeholder="" required="true">
                     </div>
                 </div>
 
@@ -109,6 +109,11 @@
 </div>
 
 <div id="processing" class="uncomplete center">
+    <div class="header-part">
+        <img src="images/Logo.PNG" alt="">
+    </div>
+    <h3 class="check-text">Checkout</h3>
+    <p>Processing payment</p>
     <div class="headings">
         <h1>Payment processing...</h1>
         <h2>Please wait</h2>
@@ -190,6 +195,7 @@
         </div>
         <div class="loading-bar" data-progress="0"><span></span></div>
     </div>
+    <p></p>
 </div>
 
 <script src="js/jquery.min.js"></script>

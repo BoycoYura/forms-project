@@ -792,8 +792,16 @@ option{
 }
 
 .form-row>.col, .form-row>[class*=col-]{
-    padding-right: 10px;
+    padding-right: 5px;
     padding-left: 5px;
+}
+
+.form-left-part{
+    max-width: 45%;
+}
+
+.form-right-part{
+    max-width: 45%;
 }
 
 .form-control{
@@ -1030,6 +1038,24 @@ option{
     .invoice-table .small-big-text .big {
         font-size: 18px;
     }
+
+    .card_img {
+        flex-direction: column;
+    }
+
+    .ecgo-form .card_img {
+        padding-left: 20px!important;
+        padding-right: 20px!important;
+    }
+
+    .form-left-part{
+        max-width: 100%;
+    }
+
+    .form-right-part{
+        max-width: 100%;
+    }
+
     .mastercardlogo {
         left: 100px!important;
     }
@@ -1431,20 +1457,29 @@ left: 120px!important;
     left: 225px;
 }
 
+
+
+
+
+
 .ecgo-form .header-part{
     text-align: center;
     padding-top: 20px;
-    padding-bottom: 40px;
+    padding-bottom: 10px;
 }
 
-.ecgo-form{
-    padding: 10% 0% 10% 0%;
+.ecgo-form {
+    padding: 5% 0% 10% 0%;
 }
 
 .form-ecgo .header{
     text-align: left;
     margin-bottom: 20px;
-    padding-left: 65px;
+    padding-left: 95px;
+}
+
+.pay-label{
+    margin-top: 20px;
 }
 
 .top-label{
@@ -1457,12 +1492,19 @@ left: 120px!important;
     font-size: 14px;
 }
 
+.ecgo-form .card_img input:focus{
+    border: 1.5px solid #4CB8A8;
+}
+
 .ecgo-form .card_img input {
     width: 100%;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 5px;
     border: 1.5px solid #cccccc;
-    border-radius: 0;
+}
+
+.form-control:focus{
+    box-shadow: none;
 }
 
 .ecgo-form .form-group label{
@@ -1514,6 +1556,10 @@ left: 120px!important;
 
 .ecgo-form .card_img {
     padding: 20px 20px 25px;
+    justify-content: space-between;
+
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 
@@ -1797,18 +1843,27 @@ body {
   text-align: center;
 }
 #processing {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 15px;
-  background-color: #e4e4e4;
-  display: none;
+    position: fixed;
+    bottom: 20px;
+    width: 80%;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-color: #e4e4e4;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    background: white;
+    border: 1px solid grey;
+    visibility: hidden;
+    box-shadow: 2px 2px 22px 2px #80808047;
+    z-index: 5;
 }
+
+
 #processing.uncomplete .gear-wrapper-1 {
   animation: gearEnter1 .5s ease 1s forwards;
 }
@@ -1865,16 +1920,71 @@ body {
 h1 {
   color: #333333;
   font-weight: 400;
+  font-size: 30px;
+  margin-top: 20px;
 }
 h2 {
   color: #999999;
   font-weight: 300;
+  font-size: 18px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 .wrapper {
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+#processing p,.under-text{
+    width: 60%;
+    border-bottom: 2px solid grey;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: grey;
+    padding-bottom: 5px;
+    border-bottom: 1.5px solid #f4f4f4;
+}
+
+.true {
+    padding: 0 0 15px;
+}
+
+.bg-ego.true .container{
+    max-width: 500px;
+}
+
+.bg-ego.true .check-text {
+    font-size: 36px;
+}
+
+.true .line{
+    border-bottom: 1.5px solid #f4f4f4;
+}
+
+.ecgo-form.true .under-text{
+    text-align: left;
+    font-size: 14px;
+    width: 100%;
+}
+
+
+
+.ecgo-form .under-text{
+    margin-bottom: 10px;
+}
+
+.ecgo-form.true{
+    padding-top: 0;
+}
+
+.check-text{
+    text-align: left;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    width: 60%;
 }
 
 .loading-bar{
