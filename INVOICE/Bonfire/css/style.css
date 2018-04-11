@@ -655,7 +655,14 @@ option{
 
 .shop-h2-cart{
     margin-top: 25px;
+    color:black;
+    padding-left: 5%;
+}
+.voucher{
+
     padding-left: 10%;
+
+    margin-top: 20px;
 }
 
 .clock{
@@ -689,8 +696,34 @@ option{
 
 .special-outputline{
     padding: 50px;
+
 }
 
+.q-1{
+    right:50px;
+}
+
+.q-3{
+    right: 50px;
+}
+
+.q-2{
+    left: 50px;
+}
+
+.q-2-2{
+    left: 100px;
+}
+.q-4-4{
+    left: 140px;
+}
+.q-4{
+    left: 50px;
+}
+.outline-row-pa{
+    padding-left: 3%;
+    padding-top: 25px;
+}
 .ovel-p{
     font-size: 25px;
     color:grey;
