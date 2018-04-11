@@ -589,6 +589,14 @@ option{
     margin-top: 20px;
 }
 
+.text-back-span{
+    margin-left: 25px;
+}
+.take-aparents{
+    margin-left: 200px;
+}
+
+
 .print-link{
     background-color: #1AB394;
     color: white;
@@ -635,13 +643,90 @@ option{
     margin-bottom: 10px;
 
 }
+.special-container{
+
+}
 
 .backpager{
-    background: gainsboro;
+    background: #F9FAFC;
+    margin-top: 50px;
+    padding-left:3%;
+}
+
+.shop-h2-cart{
+    margin-top: 25px;
+    color:black;
+    padding-left: 5%;
+}
+.voucher{
+
+    padding-left: 10%;
+
+    margin-top: 20px;
 }
 
 .clock{
-    width: 100%;
+    width: 50%;
+    margin-left: 10%;
+}
+
+.bonf-formasti{
+    background: #F9FAFC!important;
+    border: none;
+}
+
+.special-ovel-p{
+    margin-bottom: 35px;
+    display: inline-block;
+}
+.total-padding{
+    padding: 50px;
+}
+
+.form-group label {
+    font-size: 30px!important;
+    text-transform: none!important;
+}
+
+.total-p{
+    font-weight: bold;
+    color:black;
+    font-size: 30px;
+}
+
+.special-outputline{
+    padding: 50px;
+
+}
+
+.q-1{
+    right:50px;
+}
+
+.q-3{
+    right: 50px;
+}
+
+.q-2{
+    left: 50px;
+}
+
+.q-2-2{
+    left: 100px;
+}
+.q-4-4{
+    left: 140px;
+}
+.q-4{
+    left: 50px;
+}
+.outline-row-pa{
+    padding-left: 3%;
+    padding-top: 25px;
+}
+.ovel-p{
+    font-size: 25px;
+    color:grey;
 }
 .merchant .form-group input{
     border-radius: 0;
