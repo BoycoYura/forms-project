@@ -15,8 +15,16 @@ body{
     background-color: #666666;
 }
 
-.bg{
-    padding: 10% 11% 10% 10%;
+.bg {
+    padding: 10% 0 10% 0;
+    width: 480px;
+    margin: 0 auto;
+}
+
+.visa_div img{
+    width: 90px;
+    height: 60px;
+    padding: 10px;
 }
 
 .bg form{
@@ -82,7 +90,12 @@ form h2 {
 .visa_img{
     height: 90px;
     padding: 22px;
-    border: 2px solid #5c5c5c; 
+    border: 1px solid #5c5c5c;
+    border-radius: 10px;
+}
+
+.visa_div img{
+    border: 1px solid #5c5c5c;
     border-radius: 10px;
 }
 
@@ -255,6 +268,10 @@ form h2 {
         padding: 20px 15px;
     }
 
+    .bg {
+        padding: 10% 0 10% 0!important;
+    }
+
     .MasterCard_img {
         height: 80px;
         padding: 15px 25px;
@@ -274,8 +291,9 @@ form h2 {
 
 /* sm */
 @media (max-width: 992px){
-    .bg {
-        padding: 7% 0%;
+
+    .bg.start{
+        padding: 10% 0 10% 0!important;
     }
 }
 
@@ -283,7 +301,6 @@ form h2 {
 /* xs */
 @media (max-width: 768px){
     .card_img .container-fluid {
-        display: grid;
         justify-content: center;
     }
 
@@ -312,12 +329,22 @@ form h2 {
         border-top-left-radius: 10px;
         border-bottom-left-radius: 10px;
     }
+
+    .bg.start {
+        width: 100%;
+    }
 }
 
 /* mobile */
 @media (max-width: 480px){    
     form h2{
         font-size: 24px;
+    }
+
+    .visa_div img {
+        width: 50px;
+        height: 40px;
+        padding: 5px;
     }
 
     .close{

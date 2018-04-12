@@ -1457,8 +1457,15 @@ left: 120px!important;
     left: 225px;
 }
 
+#country{
+    height: 46px!important;
+    border: 1.5px solid #cccccc;
+}
 
 
+#country option{
+    background: white!important;
+}
 
 
 

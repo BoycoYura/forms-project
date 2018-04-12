@@ -931,6 +931,21 @@ option{
     padding: 10% 15% 10% 15%;    
 }
 
+.remember input{
+    width: 15%;
+    height: 15px!important;
+    margin-bottom: 0!important;
+}
+
+.remember{
+    background: white!important;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    border: 1.8px solid #d1d1d1;
+    color: #758391;
+}
+
 
 .give-form .header-part h1{
     text-align: left;
@@ -1006,10 +1021,6 @@ option{
         padding: 10% 0% 10% 0%;
     }
 
-    .bg-third {
-        padding: 10% 20% 10% 20%;
-    }
-
     .bg-six {
         padding: 10% 10% 10% 10%;
     }
@@ -1021,9 +1032,6 @@ option{
 
 @media(max-width:1200px){
 
-.bg {
-    padding: 10% 32% 10% 7%;
-}
 }
 
 @media (max-width: 991px){
@@ -1042,10 +1050,6 @@ option{
 
     .form-two #spcial-input-3{
         background-position: 120px;
-    }
-
-    .bg {
-        padding: 10% 13% 10% 7%!important;
     }
 }
 
