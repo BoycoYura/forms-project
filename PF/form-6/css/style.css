@@ -1019,12 +1019,6 @@ option{
     }
 }
 
-@media(max-width:1200px){
-
-.bg {
-    padding: 10% 32% 10% 7%;
-}
-}
 
 @media (max-width: 991px){
     .invoice-table .small-big-text .big {
@@ -1063,7 +1057,7 @@ option{
     }
 
     .bg-six {
-        padding: 10% 0 10% 0;
+        padding: 10% 0 10% 0!important;
     }
 
     .bg-seven {
@@ -1209,10 +1203,17 @@ option{
         flex-direction: column;
     }
 
+    .six-submit span {
+        padding-right: 30px;
+    }
+
     .form-two .card_img{
 
         flex-direction: column;
+    }
 
+    .form-six .card_img .head_p {
+        text-align: left!important;
     }
 
     .form-two .card-right-part {
