@@ -54,7 +54,11 @@
 }
 
 .bg-seven {
-    padding: 10% 30% 10% 30%;
+    padding: 0;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    padding-top: 10%;
 }
 
 .form-seven .form-foot-flex p{
@@ -560,8 +564,8 @@ option{
     display: flex;  
 }
 
-.form-seven .form-block{
-
+.form-seven {
+    box-shadow: 2px 2px 20px 6px #8080806b;
 }
 
 .form-block{
@@ -1014,16 +1018,6 @@ option{
         padding: 10% 10% 10% 10%;
     }
 
-    .bg-seven {
-        padding: 10% 20% 10% 20%;
-    }
-}
-
-@media(max-width:1200px){
-
-.bg {
-    padding: 10% 32% 10% 7%;
-}
 }
 
 @media (max-width: 991px){
@@ -1043,10 +1037,6 @@ option{
     .form-two #spcial-input-3{
         background-position: 120px;
     }
-
-    .bg {
-        padding: 10% 13% 10% 7%!important;
-    }
 }
 
 @media (max-width: 768px){
@@ -1064,10 +1054,6 @@ option{
 
     .bg-six {
         padding: 10% 0 10% 0;
-    }
-
-    .bg-seven {
-        padding: 10% 10% 10% 10%;
     }
 
     .bg-two {
@@ -1274,9 +1260,6 @@ option{
         text-align: center;
     }
 
-    .card_img p{
-        text-align: center;
-    }
     .arrow-top-img {
         position: relative;
         right: 100px;

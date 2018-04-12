@@ -15,6 +15,10 @@
     border-radius: 0px 20px 20px 10px;
 }
 
+.form-input_row{
+    display: block!important;
+}
+
 #processing .fa-cogs{
     position: absolute;
     top: 100px;
@@ -354,19 +358,30 @@ input .data {
    padding-right: 40px; 
 }
 
-.form-foot-flex .five-submit:nth-child(1){
+.form-foot-flex .button_1 {
     border: 1px solid #e1dada;
     font-weight: 600;
+    width: 250px!important;
     border-radius: 5px;
     padding-top: 15px;
     padding-bottom: 15px;
     cursor: pointer;
     margin-right: 20px;
+    position: relative;
 }
 
-.form-foot-flex .five-submit:nth-child(2){
+.button_1 svg{
+    top: 14px;
+}
+
+.tab-content>.active {
+    text-align: left;
+}
+
+.form-foot-flex .button_2 {
     border: 1px solid #3F87F5;
     background: #3F87F5;
+    width: 250px!important;
     color: white;
     font-weight: 600;
     padding-right: 15px;
@@ -375,6 +390,8 @@ input .data {
     padding-top: 15px;
     padding-bottom: 15px;
     cursor: pointer;
+    margin-left: 20px;
+    position: relative;
 }
 
 .form-foot-flex .five-submit:nth-child(2) span{
@@ -391,7 +408,11 @@ input .data {
 
 .form-five .card_img .data {
     border: 1px solid #cccccc;
-    border-radius: 0;
+    border-radius: 5px!important;
+}
+
+option{
+    background: white!important;
 }
 
 .form-five .card_img .head_p {
@@ -824,6 +845,10 @@ option{
     float: right;
 }
 
+.buttons{
+    justify-content: center;
+}
+
 .check{
     font-weight: bold;
     color: black !important;
@@ -1019,13 +1044,6 @@ option{
     }
 }
 
-@media(max-width:1200px){
-
-.bg {
-    padding: 10% 32% 10% 7%;
-}
-}
-
 @media (max-width: 991px){
     .invoice-table .small-big-text .big {
         font-size: 18px;
@@ -1043,15 +1061,16 @@ option{
     .form-two #spcial-input-3{
         background-position: 120px;
     }
-
-    .bg {
-        padding: 10% 13% 10% 7%!important;
-    }
 }
 
 @media (max-width: 768px){
     td img{
         width: 70%;
+    }
+
+    .form-foot-flex .button_2{
+        margin-top: 20px;
+        margin-left: 0;
     }
 
     .give-form .card_img {
@@ -1207,6 +1226,18 @@ option{
 @media (max-width: 480px){
     .bg-four .card_img{
         flex-direction: column;
+    }
+
+    .nav-pills .nav-link img{
+        height: 20px!important;
+    }
+
+    .form-five .header-part .header {
+        font-size: 20px!important;
+    }
+
+    .nav-pills .nav_link_text {
+        font-size: 18px;
     }
 
     .form-two .card_img{
