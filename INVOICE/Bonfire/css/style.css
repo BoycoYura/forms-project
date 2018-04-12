@@ -1132,6 +1132,17 @@ option{
     .form-row .make-btn {
         font-size: 10px!important;
     }
+
+    .q-2-2{
+        left:65px;
+    }
+
+    .q-4-4{
+        left: 100px;
+    }
+    .q-2{
+        left: 5px;
+    }
 }
 
 @media (max-width: 992px) {
@@ -1139,6 +1150,25 @@ option{
         font-size: 18px;
     }
 
+
+
+    .q-2-2{
+        left:4px;
+    }
+
+    .q-4-4{
+        left: 35px;
+    }
+    .q-2{
+        left: 0px;
+    }
+    .total-p{
+        font-size: 23px;
+    }
+
+    .total-padding{
+        padding: 25px;
+    }
     .ecgo-form .submiter {
         margin-bottom: 30px;
     }
@@ -1275,6 +1305,40 @@ option{
         padding-bottom: 5px;
     }
 
+    .q-2-2{
+        left:0px;
+    }
+
+    .q-4-4{
+        margin-top: 15px;
+        left: 0px;
+    }
+    .q-2{
+        margin-top: 15px;
+        left: 0px;
+    }
+
+    .outline-row-pa{
+        text-align: center!important;
+    }
+    .q-1{
+        margin-top: 15px;
+        right: 0px;
+    }
+
+    .q-3{
+        margin-top: 15px;
+        right: 0px;
+    }
+
+    .ovel-p{
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .clock{
+        margin-left:25%;
+    }
     .mastercardlogo {
         left: 65px!important;
     }
