@@ -15,7 +15,7 @@ body{
     background-color: #666666;
 }
 
-.bg {
+.start {
     padding: 10% 0 10% 0;
     width: 480px;
     margin: 0 auto;
@@ -167,7 +167,7 @@ form h2 {
 }
 
 .submit:hover{
-    color: #cc0000;
+    cursor: pointer;
 }
 
 .submit i{

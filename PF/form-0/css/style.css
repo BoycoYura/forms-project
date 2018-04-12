@@ -75,9 +75,8 @@
 
 .form-seven .card_img input {
     border-radius: 0;
-
+    border: 1px solid #fff8f824;
     margin-bottom: 20px;
-    border: 1.5px solid #F3F3F3;
     color: #cecece;
     font-weight: 600
 }
@@ -122,8 +121,18 @@ display: none!important;
 
 .arrow-top-img{
     position: relative;
-    right:50px;
+    right: 75px;
+    width: 30px;
+    cursor: pointer;
 }
+
+.visa-right{
+    width: 50px;
+    position: relative;
+    bottom: 10px;
+}
+
+
 
 .form-six .card_img .data {
      border-right: 1px solid #cccccc;
@@ -434,19 +443,26 @@ input .data {
     display: flex;
 }
 
+.form-four{
+    border-radius: 20px!important;
+}
+
 .card-left-part{
     width: 40%;
     background: #CBD5D7;
     padding-left: 30px;
+    border-radius: 20px 0 0 20px;
 }
 
 .card-right-part{
     width: 60%;
     background: #1F3449;
+    border-radius: 0 20px 20px 0;
 }
 
 .form-four .card_img{
     padding: 0;
+    height: 350px;
 }
 
 .card-left-part .text{
@@ -488,15 +504,20 @@ input .data {
 
 .card-right-part .text{
     padding-top: 30px;
+    font-size: 14px;
 }
 
 .exp-line{
     display: flex;
     padding-top: 25px;
+    margin-bottom: 20px;
 }
 
 .bg-four{
-    padding: 10% 25% 10% 25%;
+    padding-left: 0;
+    padding-right: 0;
+    width: 600px;
+    margin: 0 auto;
 }
 
 option{
@@ -518,24 +539,33 @@ option{
     height: 50px!important; 
     background: transparent;
     border: none;
-    font-size: 20px;
+    font-size: 18px;
     color: white;
+}
+
+.form-four .form-input_row  input{
+    width: 75%!important;
+    padding: 8px 10px;
+
 }
 
 .form-four .data input{
     border: 1px solid RGBA(89,89,89,0.46);
 }
 
-.form-four .card_img input{
-    border: 1px solid  RGBA(89,89,89,0.66)!important;
+.form-four .card_img .number{
+    border: 1px solid  #ffc107!important;
+    border-radius: 5px;
 }
 .card-right-part label{
     padding-bottom: 10px;
+    font-size: 14px;
 }
 
 .form-four .card_img input{
      background: transparent;
      color: white;
+     border-radius: 5px;
 }
 
 .form-ecgo .table-ship{
@@ -550,8 +580,7 @@ option{
 
 
 .arrow-top{
-    padding-bottom: 80px;
-
+    padding-bottom: 30px;
 }
 
 
@@ -981,6 +1010,17 @@ option{
         font-size: 18px;
     }
 
+    .form-four .fa-check {
+        left: 200px!important;
+    }
+
+
+
+    .bg-four {
+        width: 100%;
+        margin: 0 auto;
+    }
+
     .ecgo-form .submiter {
         margin-bottom: 30px;
     }
@@ -1021,9 +1061,6 @@ option{
 
 @media(max-width:1200px){
 
-.bg {
-    padding: 10% 32% 10% 7%;
-}
 }
 
 @media (max-width: 991px){
@@ -1045,13 +1082,21 @@ option{
     }
 
     .bg {
-        padding: 10% 13% 10% 7%!important;
+        padding: 10% 0% 10% 0%!important;
     }
 }
 
 @media (max-width: 768px){
     td img{
         width: 70%;
+    }
+
+    .form-four .fa-check {
+        left: 140px!important;
+    }
+
+    .form-four .form-input_row input {
+        width: 95%!important;
     }
 
     .give-form .card_img {
@@ -1115,6 +1160,10 @@ option{
         padding-left: 0;
         padding-top: 5px;
         padding-bottom: 5px;
+    }
+
+    .form-four .form-input_row input {
+        width: 85%!important;
     }
 
     .mastercardlogo {
@@ -1209,6 +1258,15 @@ option{
         flex-direction: column;
     }
 
+    .form-four .fa-check {
+        left: 25px !important;
+        bottom: 17px!important;
+    }
+
+    .card-left-part {
+        border-radius: 20px 20px 0 0;
+    }
+
     .form-two .card_img{
 
         flex-direction: column;
@@ -1268,6 +1326,7 @@ option{
 
     .card-right-part {
         width: 100%;
+        border-radius: 0 0 20px 20px;
         background: #1F3449;}
 
     .card-left-part .text{
@@ -1346,7 +1405,6 @@ left: 120px!important;
 
 .form-four .form-block {
     width: 15%;
-    margin-right: 10px;
 }
 
 .form-four .form-input_row{
@@ -1739,7 +1797,7 @@ left: 120px!important;
 }
 
 .form-third .form-block input{
-    background: transparent;
+    background: white;
 }
 
 .form-third .form-block input
@@ -1797,18 +1855,26 @@ body {
   text-align: center;
 }
 #processing {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 15px;
-  background-color: #e4e4e4;
-  display: none;
+    position: fixed;
+    bottom: 20px;
+    width: 80%;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-color: #e4e4e4;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    background: white;
+    border: 1px solid grey;
+    visibility: hidden;
+    box-shadow: 2px 2px 22px 2px #80808047;
+    z-index: 5;
 }
+
 #processing.uncomplete .gear-wrapper-1 {
   animation: gearEnter1 .5s ease 1s forwards;
 }
@@ -2244,8 +2310,22 @@ h2 {
     letter-spacing: 1px;
 }
 /* LIP_2 end */
-
-.false-pay{
-    color: #EF5366;
+.form-four .fa-check-circle{
+    width: 50px!important;
+    position: relative;
+    color: #ffc107; 
+    height: 50px!important;
+    margin-left: 0;
+    background: white;
+    border-radius: 72px;
 }
+
+.form-four .fa-check{
+    position: relative;
+    border: none;
+    background: transparent;
+    left: 170px;
+    bottom: 0px;
+}
+
 

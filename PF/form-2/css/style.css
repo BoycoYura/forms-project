@@ -1033,10 +1033,10 @@ option{
 }
 
 @media(max-width:1200px){
-
-.bg {
-    padding: 10% 32% 10% 7%;
+.redi.btn-secondary {
+    padding-left: 20px!important;
 }
+
 }
 
 @media (max-width: 991px){
@@ -1056,10 +1056,6 @@ option{
     .form-two #spcial-input-3{
         background-position: 120px;
     }
-
-    .bg {
-        padding: 10% 13% 10% 7%!important;
-    }
 }
 
 @media (max-width: 768px){
@@ -1067,8 +1063,20 @@ option{
         width: 70%;
     }
 
+    .form-two .card-left-part .value {
+        font-size: 14px!important;
+    }
+
+    .mastercardlogo {
+        left: 40px!important;
+    }
+
     .give-form .card_img {
         padding: 50px 20px 25px;
+    }
+
+    .bg-two {
+        width: 100%!important;
     }
 
     .bg-third {
@@ -1083,13 +1091,6 @@ option{
         padding: 10% 10% 10% 10%;
     }
 
-    .bg-two {
-        padding: 7% 0% 3% 0%!important;
-    }
-
-    .mastercardlogo {
-        left: 185px!important;
-    }
     .form-two #special-input{
         background-position: 230px!important;
     }
@@ -1130,8 +1131,24 @@ option{
         padding-bottom: 5px;
     }
 
+    input {
+        background-image: none!important;
+    }
+
+    .form-two .card-left-part {
+        width: 40%!important;
+    }
+
+    .form-two .card-right-part {
+        width: 60%!important;
+    }
+
     .mastercardlogo {
-        left: 65px!important;
+        left: 0px!important;
+    }
+
+    .redi .fa-angle-right {
+        margin-left: 40px!important;
     }
 
     .visa-ecgo{display: none;}
@@ -1222,6 +1239,15 @@ option{
         flex-direction: column;
     }
 
+    .form-two .card-left-part p {
+        position: static!important;
+    }
+
+    .btn-secondary-margin {
+        position: static;
+        margin-top: 20px;
+    }
+
     .form-two .card_img{
 
         flex-direction: column;
@@ -1250,13 +1276,10 @@ option{
         padding-left: 20px !important;
 
     }
-    .mastercardlogo {
-        left: 190px!important;
-    }
 
     .btn-secondary-margin {
         padding-top: 10px!important;
-        left: 20px;
+        left: 0;
     }
 
     .special-title {
@@ -1308,20 +1331,6 @@ option{
 }
 
 
-@media(max-width: 440px){
-    .mastercardlogo {
-        left: 150px!important;
-    }
-}
-
-
-@media(max-width: 415px){
-.mastercardlogo {
-left: 120px!important;
-}
-}
-
-
 @media (max-width: 400px){
     .fa-check {
         position: relative;
@@ -1337,22 +1346,12 @@ left: 120px!important;
     .form-two #special-input-1 {
         background-position: 115px!important;
     }
-
-    .mastercardlogo {
-        left: 100px!important;
-    }
 }
 
 @media (max-width: 365px){
     .arrow-top-img {
         position: relative;
         right: 70px;
-    }
-}
-
-@media (max-width: 320px){
-    .mastercardlogo {
-        left: 50px!important;
     }
 }
 
@@ -1435,7 +1434,10 @@ left: 120px!important;
 }
 
 .bg-two {
-    padding: 7% 22% 10% 22%;
+    padding: 0;
+    width: 650px;
+    margin: 0 auto;
+    padding-top: 10%;
 }
 
 .form-two .card-left-part .title {
@@ -1875,18 +1877,30 @@ body {
   text-align: center;
 }
 #processing {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 15px;
-  background-color: #e4e4e4;
-  display: none;
+    position: fixed;
+    bottom: 20px;
+    width: 80%;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-color: #e4e4e4;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    background: white;
+    border: 1px solid grey;
+    visibility: hidden;
+    box-shadow: 2px 2px 22px 2px #80808047;
+    z-index: 5;
 }
+
+.true .card_img:before{
+    display: none;
+}
+
 #processing.uncomplete .gear-wrapper-1 {
   animation: gearEnter1 .5s ease 1s forwards;
 }
