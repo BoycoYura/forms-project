@@ -5,34 +5,42 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>EGO FALSE</title>
+    <title>bonfire false</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/forms_0.css">
     <link rel="stylesheet" href="css/bonfire-true.css">
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="css/bonfire-false.css">
-    <link rel="stylesheet" href="css/ego-false.css">
-
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/validation-status.css">
 
 </head>
-<body class="bg-ego-new">
+<body class="bonfire-body">
 
 <div class="container">
-    <div class="bg ">
-        <form class="true ">
+    <div class="bg  bg-news">
+        <p class="pr-pay ">Processing Payment</p>
+        <form class="true bg-border">
 
             <div class="form_text">
                 <div class="card_img">
                     <p CLASS="head_p pr-false"> PAYMENT FAILED!</p>
-                    <i class="fas fa-times-circle"></i>
+                    <div id="processing" class="process-validator complete">
+                        <div class="wrapper">
+                            <div class="loading-bar" data-progress="0"><span></span></div>
+                            <svg class="checkmark checkmark-success" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+                                <circle class="checkmark-circle" cx="25" cy="25" r="25" fill="none"/><path class="checkmark-check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/></svg>
+                            <svg class="checkmark checkmark-error" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50"><circle class="checkmark-circle" cx="25" cy="25" r="25" fill="none"/><path class="checkmark-check" fill="none" d="M16,34L25 25 34 16 "/><path class="checkmark-check" fill="none" d="M16,16L25 25 34 34 "/></svg>
+                        </div>
+                    </div>
 
                     <p class="reference">Reference# 18234095</p>
 
                     <p class="order-text">Order# 273945</p>
                     <P class="false-text"> 3d autentification failed</P>
 
-                    <button class="submit complete-submit-order-2" type="submit">PURCHASE 537.00 SEC</button>
+                    <button class="submit complete-submit-order" type="submit">COMPLETE ORDER</button>
 
 
                 </div>

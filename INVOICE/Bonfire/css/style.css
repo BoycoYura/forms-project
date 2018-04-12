@@ -14,7 +14,26 @@
     border-top: 2px solid #EBEBEB;
     border-radius: 0px 20px 20px 10px;
 }
-
+#processing {
+    position: fixed;
+    bottom: 20px;
+    width: 80%;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-color: #e4e4e4;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    background: white;
+    border: 1px solid grey;
+    visibility: hidden;
+    box-shadow: 2px 2px 22px 2px #80808047;
+    z-index: 5;
+}
 
 .top-menu-head{
     display:flex;
@@ -2018,19 +2037,7 @@ body {
   margin: 0 auto;
   text-align: center;
 }
-#processing {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 15px;
-  background-color: #e4e4e4;
-  display: none;
-}
+
 #processing.uncomplete .gear-wrapper-1 {
   animation: gearEnter1 .5s ease 1s forwards;
 }

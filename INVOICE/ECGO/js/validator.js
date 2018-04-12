@@ -9,7 +9,7 @@ $(document).ready(function(){
             type: "POST",
             data: msg,
             success: function(data){
-                $("#processing").css('display','block').delay(3000).fadeOut('fast');
+                $("#processing").css('visibility','visible').delay(3000).fadeOut('fast');
 
                 setTimeout(function () {
                     var url = "true.html";
@@ -17,7 +17,7 @@ $(document).ready(function(){
                 }, 3000);
             },
             error:  function(){
-                $("#processing").css('display','block').delay(3000).fadeOut('fast');
+                $("#processing").css('visibility','visible').delay(3000).fadeOut('fast');
 
                 setTimeout(function () {
                     var url = "false.html";
