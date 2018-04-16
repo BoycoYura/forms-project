@@ -126,6 +126,10 @@
 
 /* Six form */
 
+.q-2-2{ margin-top: 15px;}
+
+.q-4-4{ margin-top: 40px;}
+
 .form-six .header{
     color: #59CCA8;
     font-family: 'Pacifico', cursive;
@@ -716,8 +720,21 @@ option{
 }
 
 .special-outputline{
-    padding: 50px;
+    padding: 30px;
 
+}
+
+.q-2-2 {
+    text-align: right;
+
+}
+
+.q-4-4{
+    text-align: right;
+}
+
+.q-2{
+    text-align: right;
 }
 
 .q-1{
@@ -728,16 +745,7 @@ option{
     right: 50px;
 }
 
-.q-2{
-    left: 50px;
-}
 
-.q-2-2{
-    left: 100px;
-}
-.q-4-4{
-    left: 140px;
-}
 .header-bonfire{
     display: flex;
     justify-content: space-between;
@@ -1158,16 +1166,7 @@ option{
         font-size: 10px!important;
     }
 
-    .q-2-2{
-        left:65px;
-    }
 
-    .q-4-4{
-        left: 100px;
-    }
-    .q-2{
-        left: 5px;
-    }
 }
 
 @media (max-width: 992px) {
@@ -1177,18 +1176,9 @@ option{
 
 
 
-    .q-2-2{
-        left:4px;
-    }
 
-    .q-4-4{
-        left: 35px;
-    }
-    .q-2{
-        left: 0px;
-    }
     .total-p{
-        font-size: 23px;
+        font-size: 18px;
     }
 
     .total-padding{
@@ -1267,6 +1257,20 @@ option{
         width: 70%;
     }
 
+    .clock{
+        width: 75px;
+        height: 85px;
+    }
+
+    .ovel-p{
+        font-size: 16px;
+        padding-left: 30px!important;
+    }
+
+    .outline-row-pa{
+        padding-left: 0;
+    }
+
     .give-form .card_img {
         padding: 50px 20px 25px;
     }
@@ -1330,17 +1334,26 @@ option{
         padding-bottom: 5px;
     }
 
+    .jaja{
+        margin: 0 auto;
+        text-align: center;
+        width: 100px;  }
+    }
+
     .q-2-2{
         left:0px;
+        text-align: center;
     }
 
     .q-4-4{
-        margin-top: 15px;
+
         left: 0px;
+        text-align: center;
     }
     .q-2{
-        margin-top: 15px;
+
         left: 0px;
+        text-align: center;
     }
 
     .outline-row-pa{
@@ -1349,12 +1362,23 @@ option{
     .q-1{
         margin-top: 15px;
         right: 0px;
+        padding-bottom: 5px;
     }
 
     .q-3{
-        margin-top: 15px;
+        margin-top: 40px;
+        margin-bottom: 20px;
         right: 0px;
     }
+        .circle-items-btn{ text-align: center}
+    .inv-1 button{ float: none}
+    .shop-h2-cart {  text-align: center}
+
+
+    .q-1-total{
+        padding-bottom: 15px;}
+        .outline-row-pa{ text-align:center!important; padding: 50px;}
+
 
     .ovel-p{
         text-align: center;
