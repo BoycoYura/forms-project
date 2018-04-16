@@ -701,7 +701,7 @@ option{
     display: inline-block;
 }
 .total-padding{
-    padding: 50px;
+    padding: 0px;
 }
 
 .form-group label {
@@ -712,7 +712,7 @@ option{
 .total-p{
     font-weight: bold;
     color:black;
-    font-size: 30px;
+    font-size: 22px;
 }
 
 .special-outputline{
