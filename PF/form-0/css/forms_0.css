@@ -17,14 +17,14 @@ body{
 
 .start {
     padding: 10% 0 10% 0;
-    width: 480px;
+    width: 300px;
+    height: 480px;
     margin: 0 auto;
 }
 
 .visa_div img{
-    width: 90px;
-    height: 60px;
-    padding: 10px;
+    width: 50px;
+    height: 35px;
 }
 
 .bg form{
@@ -43,8 +43,7 @@ body{
 }
 form h2 {
     text-align: center;
-    text-transform: uppercase;
-    font-size: 32px;
+    font-size: 27px;
     color: #716f78;
     padding: 20px 0;
     background-color: #eef2f4;
@@ -52,14 +51,15 @@ form h2 {
     border-top-right-radius: 10px;
     border-bottom: 2px solid #dedede;
     line-height: 2;
+    padding-left: 40px;
 }
 
 .start .close{
-    padding: 7px 10px;
+    padding: 3px 7px;
     background-color: #bec2c3;
     border-radius: 20px;
     top: 0;
-    margin-right: 30px;
+    margin-right: 10px;
 }
 
 .start .fa-times{
@@ -69,8 +69,8 @@ form h2 {
 }
 
 .card_img{
-    padding: 20px 50px 25px;
-    text-align: center;
+    padding: 20px 20px 20px;
+    text-align: left;
 }
 
 .card_img p{
@@ -83,45 +83,57 @@ form h2 {
 }
 
 .visa_div{
-    padding: 0 10px;
+    padding: 0 5px;
     width: 200px;
 }
 
 .visa_img{
     height: 90px;
-    padding: 22px;
+    padding: 10px;
     border: 1px solid #5c5c5c;
     border-radius: 10px;
+
 }
 
+.fa-question-circle{
+    position: absolute;
+    top: 10px;
+    /* bottom: 0; */
+    right: 25px;
+
+}
+
+
+
 .visa_div img{
-    border: 1px solid #5c5c5c;
-    border-radius: 10px;
+    border: 0.5px solid #9E9E9E;
+    border-radius: 5px;
 }
 
 .MasterCard_img{
     height: 90px;
-    padding: 15px 42px;
-    border: 2px solid #5c5c5c; 
+    padding: 7px;
+    border: 2px solid #5c5c5c;
     border-radius: 10px;
 }
 
 .American_img{
     height: 90px;
-    padding: 15px 9px;
-    border: 2px solid #5c5c5c; 
+    border: 2px solid #5c5c5c;
     border-radius: 10px;
+    background: #077BAC;
 }
 
 .discover_img{
     height: 90px;
     width: 180px;
+    padding: 0px;
 }
 
 .card_img .head_p{
     font-size: 18px;
     font-weight: bold;
-    color: #465472;
+    color: #545353;
     padding: 20px 0 15px;
 }
 
@@ -134,10 +146,17 @@ form h2 {
 .card_img input{
     width: 100%;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 5px;
     border: 2px solid #cccccc;
 }
 
+.placed-inp::-webkit-input-placeholder {color:gainsboro}
+.placed-inp::-moz-placeholder {color:gainsboro}
+.placed-inp:-moz-placeholder{color:gainsboro}
+.placed-inp:-ms-input-placeholder{color:gainsboro}
+.input{
+    background: red!important;
+}
 .input_two > div:nth-child(1){
     padding-right: 0;
 }
@@ -158,12 +177,13 @@ form h2 {
 }
 
 .submit{
-    font-size: 20px;
+    font-size: 15px;
     color: #fff;
     background-color: #54c7c3;
     padding: 20px 0;
     width: 100%;
     margin-top: 20px;
+    border: 10px;
 }
 
 .submit:hover{
@@ -265,7 +285,6 @@ form h2 {
 @media (max-width: 1200px){
     .visa_img {
         height: 80px;
-        padding: 20px 15px;
     }
 
     .bg {
@@ -274,7 +293,7 @@ form h2 {
 
     .MasterCard_img {
         height: 80px;
-        padding: 15px 25px;
+
     }
 
     .American_img {

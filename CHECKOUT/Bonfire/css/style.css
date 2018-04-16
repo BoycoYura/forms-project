@@ -283,6 +283,10 @@ input .data {
     top: 40px;
 }
 
+.form-group label{
+    font-size: 14px!important;
+}
+
 .form-six .visa-image.question{
     top: 40px;
     width: 20px
@@ -835,7 +839,7 @@ option{
     margin-bottom: 6px !important;
     color: grey;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 14px!important;
 }
 
 .form-row label.mr-2, .mx-2{
